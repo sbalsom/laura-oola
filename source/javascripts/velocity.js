@@ -12,7 +12,7 @@ const fifth = document.getElementById("fifth");
 const sixth = document.getElementById("sixth");
 const seventh = document.getElementById("seventh");
 const eigth = document.getElementById("eigth");
-
+const textBox = document.getElementById('text-box');
 
 const handleScroll = () => {
   console.log(pageYOffset + 'px');
@@ -28,7 +28,7 @@ const handleScroll = () => {
 }, {
   duration:800
 }).velocity({
-  top: 800 }, {
+  top: 500 }, {
     delay: 10000,
     duration:3000
   }).velocity({
@@ -36,6 +36,7 @@ const handleScroll = () => {
   }, {
     duration: "slow"
   });
+
 second.velocity({
   "position": "absolute",
   "top" : 40,
@@ -44,7 +45,7 @@ second.velocity({
 }, {
   duration:1000
 }).velocity({
-  top: 800 }, {
+  top: 300 }, {
     delay: 10000,
     duration:3000
   }).velocity({
@@ -61,7 +62,7 @@ third.velocity({
 }, {
   duration:1500
 }).velocity({
-  top: 600 }, {
+  top: 500 }, {
     delay: 10000,
     duration:3000
   }).velocity({
@@ -78,7 +79,7 @@ fourth.velocity({
 }, {
   duration:2000
 }).velocity({
-  top: 1000 }, {
+  top: 400 }, {
     delay: 10000,
     duration:3000
   }).velocity({
@@ -95,7 +96,7 @@ fifth.velocity({
 }, {
   duration:2500
 }).velocity({
-  top: 700 }, {
+  top: 300 }, {
     delay: 12000,
     duration:3000
   }).velocity({
@@ -129,7 +130,7 @@ seventh.velocity({
 }, {
   duration:3500
 }).velocity({
-  top: 500 }, {
+  top: 350 }, {
     delay: 10000,
     duration:3000
   }).velocity({
@@ -153,7 +154,18 @@ eigth.velocity({
     opacity: 0
   }, {
     duration: "slow"
-  });
+  }).velocity({
+    tween: [456, 123]
+}, {
+    progress: function(elements, percentComplete, remaining, tweenValue, activeCall) {
+        // console.log("The current tween value is " + tweenValue)
+        if (tweenValue >= 442) {
+          console.log('done')
+          // textBox.innerText = `Oola poured each of us a drink,<br>choosing from the Orbitson’s expansive wet bar.<br>We were like children with taped-on corsages,<br>estimating our own depths, guessing at love.<br>The windows would be open, the smell of the city suffusing the room.<br>It ate at the curtains, warped the dark wood,<br>did all the things we as house-sitters were supposed to prevent <br>but as self-absorbed lovers found excusable.`
+        }
+
+    }
+});
 
   window.removeEventListener('scroll', handleScroll);
   }
