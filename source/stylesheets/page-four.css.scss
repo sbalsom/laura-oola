@@ -1,0 +1,32 @@
+.pg-4 {
+  height: 700px;
+  .pg__video {
+    height: 360px;
+    position:absolute;
+    right: 0;
+    top: 500px;
+    z-index: 2;
+    background-image: url('../images/video-4.png');
+  }
+
+  .pg__block {
+    background: rgba(228, 231, 229, 0.30);
+    width: 600px;
+    height: 200px;
+    position: absolute;
+    left: 0;
+    bottom: 100px;
+    z-index: 3;
+  }
+  .pg__text {
+    width: 370px;
+    font-size: 24px;
+    position:absolute;
+    left: 70px;
+    bottom: 170px;
+    z-index: 4;
+    font-weight:lighter;
+  }
+
+}
+

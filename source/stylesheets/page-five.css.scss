@@ -1,11 +1,20 @@
-.pg-2 {
+.pg-5 {
   height: 700px;
+
+  .pg__video {
+    position:absolute;
+    left: 0;
+    top: 564px;
+    z-index: 2;
+    background-image: url('../images/video-5.png');
+  }
   .pg__text {
-    width: 40vw;
+    text-align: right;
+    width: 149px;
     font-size: 24px;
     position:absolute;
-    left: 155px;
-    top: 120px;
+    right: 58px;
+    top: 143px;
     z-index: 4;
     font-weight:lighter;
   }
@@ -15,16 +24,9 @@
     width: 600px;
     height: 400px;
     position:absolute;
-    left: 20%;
+    right: 0;
     top: 120px;
     z-index: 3;
-  }
-  .pg__video {
-    position:absolute;
-    right: 10vw;
-    top: 400px;
-    z-index: 2;
-    background-image: url('../images/video-2.png');
   }
 
 }
