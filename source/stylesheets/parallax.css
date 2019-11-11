@@ -1,0 +1,15 @@
+body {
+  overflow-x: hidden;
+  height: 10500px;
+  padding: 50px;
+  margin: 0;
+  font-family: 'Playfair Display', serif;
+  color: #D44D87; }
+
+.wrapper {
+  display: flex;
+  flex-direction: column; }
+
+.pg {
+  position: relative;
+  margin: 100px 0 100px 0; }
