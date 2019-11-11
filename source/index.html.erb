@@ -63,28 +63,27 @@
           <source data-src="../videos/video-5.ogv"  type="video/ogg" />
         </video>
       </div>
-      <div class="pg__text rellax" data-rellax-speed="0">
-        For<br>convenience’s<br>sake,<br>she<br>wore<br>her<br>hair<br>back,<br>cleaned<br>and<br>low.
+      <div class="pg__block rellax" data-rellax-speed="4">
       </div>
-      <div class="pg__block rellax" data-rellax-speed="0">
-
+      <div class="pg__text rellax" data-rellax-speed="+5">
+        For<br>convenience’s<br>sake,<br>she<br>wore<br>her<br>hair<br>back,<br>cleaned<br>and<br>low.
       </div>
     </div>
 
     <!-- page 6 needs to be screenshot-->
 
     <div class="pg pg-6">
-      <div class="pg__video rellax" data-rellax-speed="0">
+      <div class="pg__text">
+          <span id="first">Oola poured each of us a drink,</span> <span id="second">choosing from the Orbitson’s expansive wet bar.</span> <span id="third">We were like children with taped-on corsages,</span> <span id="fourth">estimating our own depths, guessing at love.</span> <span id="fifth">The windows would be open, the smell of the city suffusing the room.</span> <span id="sixth">It ate at the curtains, warped the dark wood,</span> <span id="seventh">did all the things we as house-sitters were supposed to prevent </span><span id="eigth">but as self-absorbed lovers found excusable.</span>
+      </div>
+      <div class="pg__block rellax" data-rellax-speed="0">
+
+      </div>
+            <div class="pg__video rellax" data-rellax-speed="-1">
         <video width="640" height="360" autoplay loop playsinline poster="../images/video-6.png" class="lazy">
           <source data-src="../videos/video-6.mp4"  type="video/mp4" />
           <source data-src="../videos/video-6.ogv"  type="video/ogg" />
         </video>
-      </div>
-      <div class="pg__text rellax" data-rellax-speed="0">
-          Oola poured each of us a drink, choosing from the Orbitson’s expansive wet bar. We were like children with taped-on corsages, estimating our own depths, guessing at love. The windows would be open, the smell of the city suffusing the room. It ate at the curtains, warped the dark wood, did all the things we as house-sitters were supposed to prevent but as self-absorbed lovers found excusable.
-      </div>
-      <div class="pg__block rellax" data-rellax-speed="0">
-
       </div>
     </div>
 
@@ -255,3 +254,7 @@
 
 
 <%= javascript_include_tag "site" %>
+<script src="//cdn.jsdelivr.net/npm/velocity-animate@2.0/velocity.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/velocity-animate@2.0/velocity.ui.min.js"></script>
+<%= javascript_include_tag "velocity" %>
+
