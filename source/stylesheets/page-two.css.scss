@@ -1,0 +1,53 @@
+.pg-2 {
+  // border: solid red 1px;
+  height: 900px;
+
+  .perfume__img {
+    z-index: 4;
+  }
+  .pg__img {
+    // border: 1px solid blue;
+    position:absolute;
+    left: 795px;
+    top: 538px;
+    transform: rotate(20deg);
+  }
+
+  .pg__video {
+    // border: 1px solid blue;
+    position:absolute;
+    left: 10vw;
+    top: -35px;
+    z-index: -1;
+    background-image: url('../images/video-3.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+  }
+
+  .pg__block {
+    // border: 1px solid blue;
+    background: rgba(228, 231, 229, 0.64);
+    width: 200px;
+    height: 600px;
+    position: absolute;
+    left:60%;
+    top: -256px;
+    z-index: 0;
+
+  }
+
+  .pg__text {
+    // border: 1px solid blue;
+    width: 700px;
+    font-size: 24px;
+    position:absolute;
+    top: 603px;
+    left: 20%;
+    z-index: 3;
+  }
+
+}
+
+
+

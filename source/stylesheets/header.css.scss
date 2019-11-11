@@ -1,0 +1,25 @@
+.header {
+  // border: solid 1px blue;
+  position:relative;
+  margin: 0 auto 100px auto;
+  height: 360px;
+  width: 640px;
+  background-image: url('../images/video-1.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+
+  h1 {
+    position: absolute;
+    bottom:0;
+    margin: 30px;
+    font-size: 100px;
+    font-weight: 700;
+  }
+
+  h2 {
+    font-size: 15px;
+    margin:0;
+    font-weight: 400;
+  }
+}
