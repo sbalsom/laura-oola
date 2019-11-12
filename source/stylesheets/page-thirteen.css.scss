@@ -1,15 +1,20 @@
+.pg-13__text div {
+    position:absolute;
+    width: 600px;
+    // opacity:0;
+}
+
+
 .pg-13 {
   // border: solid 1px red;
   height: 500px;
-  .pg__text {
+  .pg-13__text {
     // border: solid 1px blue;
-    width:200px;
+    width:400px;
     position:absolute;
-    left:400px;
     font-size:20px;
-    top: 3194px;
-    color: white;
     line-height:1.5;
+    z-index: 3;
 
   }
 
@@ -20,6 +25,124 @@
   }
 
   .pg__block {
+    width:450px;
+    height: 700px;
+    left:450px;
+    position: absolute;
+  }
+
+  #oola-3 {
+    font-size: 100px;
+    top: 1876px;
+  }
+
+  #silver {
+    top: -40px;
+  }
+
+  #paranormal {
+    top: -40px;
+    left: 500px;
+  }
+
+  .scroll-1 {
+    width: 150px;
+    left:490px;
+    height: 60px;
+    overflow: scroll;
+    top:40px;
+    z-index:5;
+    font-size:15px;
+    color:white;
+  }
+
+  #stamp {
+    top: 150px;
+    left: 458px;
+    font-size:18px;
+  }
+
+  .scroll-2 {
+    width: 150px;
+    left:490px;
+    height: 60px;
+    overflow: scroll;
+    top:250px;
+    z-index:5;
+    font-size:15px;
+    color:white;
+  }
+
+  #fine {
+    top:220px;
+    font-size:40px;
+    left:10px;
 
   }
+
+  #feminine {
+    top: 245px;
+    font-size:40px;
+    left:40px;
+
+  }
+
+  #smear {
+    top: 265px;
+    font-size:40px;
+    left:100px;
+
+  }
+
+
 }
+
+
+  // #look {
+  //   top: 40px;
+  //   font-size: 15px;
+  //   left: 491px;
+  // }
+
+  // #floor {
+  //   top: 80px;
+  //   left: 659px;
+  // }
+
+  // #violin {
+  //   top: 118px;
+  //   left: 491px;
+  // }
+
+  // #bones {
+  //   top: 160px;
+  //   left: 449px;
+  // }
+
+  // #mouth-2 {
+  //   top: 200px;
+  //   left: 500px;
+  // }
+
+  // #stamp {
+  //   top: 240px;
+  //   left: 600px;
+  // }
+
+  // #anyone {
+  //   top: 300px;
+  //   left: 491px;
+  //   width: 300px;
+  //   text-align:center;
+  // }
+
+  // #grandmother {
+  //   top: 400px;
+  //   left: 491px;
+  // }
+
+  // #love {
+  //   top: 500px;
+  //   left: 491px;
+  // }
+

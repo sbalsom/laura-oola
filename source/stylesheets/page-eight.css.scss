@@ -1,14 +1,13 @@
+.pg-8__text div {
+    opacity: 0;
+    position:absolute;
+    width: 600px;
+    font-size: 20px;
+}
 
 .pg-8 {
   height: 900px;
   margin-left: 20vw;
-
-  .pg__text div {
-      opacity: 0;
-      position:absolute;
-      width: 600px;
-      font-size: 20px;
-  }
 
   #oola {
     top: 0;
@@ -83,10 +82,6 @@
   .pg__block {
 
   }
-}
-
-.hidden {
-  display:none;
 }
 
 
