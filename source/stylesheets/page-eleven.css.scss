@@ -1,10 +1,30 @@
 .pg-11 {
+  height: 700px;
+  width:640px;
+  margin-top:0;
   .pg__text {
-
+    width: 400px;
+    line-height:2;
   }
 
+  #half-one {
+    position:absolute;
+    margin-left:120px;
+    top: 50px
+    // left:0;
+  }
+
+  #half-two {
+    position:absolute;
+    top:50px;
+    right:0;
+    text-align:right;
+    margin-right:120px;
+  }
   .pg__video {
     background-image: url('../images/video-11.png');
+    position:absolute;
+    right:0;
   }
 
   .pg__block {

@@ -114,7 +114,6 @@ const animateName = () => {
     progress: function(elements, percentComplete, remaining, tweenValue, activeCall) {
         // this waits for the animation to be over and only then replaces the text
         if (tweenValue > 442) {
-          console.log('done');
           appearText();
         }
 
@@ -126,10 +125,8 @@ const animateName = () => {
 
 // triggers animation when the user scrolls to that part of the page
 const handleNameScroll = () => {
-  console.log(body.getBoundingClientRect()["y"]);
-  if(body.getBoundingClientRect()["y"] <= -5700) {
+  if(body.getBoundingClientRect()["y"] <= -5100) {
     animateName();
-    // appearName();
 // this line is necessary so the animation doesn't flicker / repeatedly start over
   window.removeEventListener('scroll', handleNameScroll);
   }

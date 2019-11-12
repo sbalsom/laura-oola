@@ -181,15 +181,31 @@
 
     <!-- page 11 -->
     <div class="pg pg-11">
-      <div class="pg__video rellax" data-rellax-speed="0">
+      <div class="pg__video rellax" data-rellax-speed="0" id="moving-video">
         <video width="640" height="360" autoplay loop playsinline poster="../images/video-11.png" class="lazy">
           <source data-src="../videos/video-11.mp4"  type="video/mp4" />
           <source data-src="../videos/video-11.ogv"  type="video/ogg" />
         </video>
       </div>
-      <div class="pg__text rellax" data-rellax-speed="0">
-         Through the stretched fabric, her features were blurred, as if a left-hander had been penciling her, smudging the last stroke as he made the next, a face not so much ruined as erased.. Her eyelashes were crimped, her nose squished, her mouth forced open, her cheeks Botoxed back. As best we could we made eye contact.
-      </div>
+     <div class="flex">
+        <div class="pg__text rellax" data-rellax-speed="0" id="half-one">
+          Through the stretched fabric,<br>
+          blurred, as if a left-<br>
+          smudging the last stroke<br>
+          so much ruined as erased.<br>
+          her nose squished,<br>
+          Botoxed back. As best we
+       </div>
+
+       <div class="pg__text rellax" data-rellax-speed="0" id="half-two">
+         her features were<br>
+         hander had been penciling her,<br>
+         as he made the next, a face not<br>
+         Her eyelashes were crimped,<br>
+         her mouth forced open, her cheeks<br>
+         could we made eye contact.
+       </div>
+     </div>
       <div class="pg__block rellax" data-rellax-speed="0">
 
       </div>
@@ -281,4 +297,5 @@
 <script src="//cdn.jsdelivr.net/npm/velocity-animate@2.0/velocity.ui.min.js"></script>
 <%= javascript_include_tag "velocity" %>
 <%= javascript_include_tag "name" %>
+<%= javascript_include_tag "curtain" %>
 
