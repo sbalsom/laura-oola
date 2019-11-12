@@ -1,14 +1,24 @@
 .pg-9 {
+  height: 500px;
   .pg__text {
-
+    font-size: 24px;
+    width: 400px;
+    position:absolute;
+    left: 300px;
+    top: 1800px;
+    z-index:5;
   }
 
   .pg__video {
     background-image: url('../images/video-9.png');
-
+    position: absolute;
   }
 
   .pg__block {
-
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    left: 250px;
+    top: 1500px;
   }
 }
