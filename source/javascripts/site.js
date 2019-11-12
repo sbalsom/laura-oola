@@ -12,3 +12,4 @@ c[b].top+r)/(c[b].height+r),c[b].speed);var e=d.y-c[b].baseY,g=d.x-c[b].baseX;nu
 
 
 var rellax = new Rellax('.rellax');
+

@@ -16,13 +16,7 @@ const seventh = document.getElementById("seventh");
 const eigth = document.getElementById("eigth");
 const textBox = document.getElementById('text-box');
 
-// animation only happens when user scrolls to this part of the page
-const handleScroll = () => {
-  console.log(pageYOffset + 'px');
-  console.log(first.getBoundingClientRect()["y"])
-  console.log(body.getBoundingClientRect()["y"] <= -3473)
-  if(body.getBoundingClientRect()["y"] <= -3473) {
-    console.log('here!')
+const drunkAnimation = () => {
     first.velocity({
   "position": "absolute",
   "top" : 10,
@@ -162,13 +156,20 @@ eigth.velocity({
     }
 });
 
-// this line is necessary so the animation doesn't flicker / repeatedly start over
-  window.removeEventListener('scroll', handleScroll);
-  }
 }
 
 
-window.addEventListener('scroll', handleScroll);
+// triggers animation when the user scrolls to that part of the page
+const handleDrunkScroll = () => {
+  console.log(body.getBoundingClientRect()["y"]);
+  if(body.getBoundingClientRect()["y"] <= -3473) {
+    drunkAnimation();
+// this line is necessary so the animation doesn't flicker / repeatedly start over
+  window.removeEventListener('scroll', handleDrunkScroll);
+  }
+}
+
+window.addEventListener('scroll', handleDrunkScroll);
 
 
 

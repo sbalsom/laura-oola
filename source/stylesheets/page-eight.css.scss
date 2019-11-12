@@ -1,13 +1,96 @@
-.pg-8 {
-  .pg__text {
 
+.pg-8 {
+  height: 900px;
+
+  .pg__text div {
+      opacity: 0;
+      position:absolute;
+      width: 600px;
+      font-size: 20px;
+  }
+
+  #oola {
+    top: 0;
+  }
+
+  #name {
+    top: -60px;
+    font-size: 40px;
+  }
+
+  #a-word {
+    top: -70px;
+    left: 50px;
+  }
+
+  #like-any {
+    top: -40px;
+    left: 300px;
+  }
+
+  #kid {
+    top: 370px;
+    left: 50px;
+  }
+
+  #book {
+    top: 420px;
+    left: 150px;
+  }
+
+  #bread {
+    top: 470px;
+    left: 250px;
+  }
+
+  #breasts {
+    top: 520px;
+    left: 350px;
+  }
+
+  #until {
+    top: 570px;
+    left: 50px;
+  }
+
+  #oola-2 {
+    font-size: 50px;
+    top: 600px;
+    left: 350px;
+  }
+
+  #tongue {
+    top: 670px;
+    left: 50px;
+  }
+
+  #cream {
+    top: 720px;
+    left: 50px;
+  }
+
+  #mouth {
+    top: 770px;
+    left: 50px;
   }
 
   .pg__video {
     background-image: url('../images/video-8.png');
+    position: absolute;
   }
 
   .pg__block {
 
   }
 }
+
+.hidden {
+  display:none;
+}
+
+
+// <div id="until">until these most basic things sounded foreign and I could barely remember what they meant.</div>
+//          <div id="oola-2">Oola</div>
+//          <div id="tongue">similarly cracked open on the tongue,</div>
+//          <div id="cream">like something cream-filled, a necessary embarrassment.</div>
+//          <div id="mouth">It made one’s mouth suddenly suspect.</div>
