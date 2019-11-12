@@ -30,7 +30,6 @@ const swingCurtain = () => {
     duration:5000,
     progress: function(elements, percentComplete, remaining, tweenValue, activeCall) {
         // this waits for the animation to be over and only then replaces the text
-         console.log(percentComplete);
         if (percentComplete >= 0.5) {
 
         halfOne.innerHTML = ` her features were<br>
@@ -55,7 +54,6 @@ const swingCurtain = () => {
 }
 
 const handleCurtainScroll = () => {
-  console.log(body.getBoundingClientRect()["y"]);
   if(body.getBoundingClientRect()["y"] <= -8000) {
 
   swingCurtain();

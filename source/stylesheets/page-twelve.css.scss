@@ -1,14 +1,33 @@
 .pg-12 {
+  height:600px;
   .pg__text {
-
+    height: 600px;
+    width:180px;
+    position:absolute;
+    top:0;
+    right:15px;
+    font-size: 35px;
+    background: -webkit-linear-gradient(#243f8c, #1d7f64);
+    background: -o-linear-gradient(#243f8c, #1d7f64);
+    background: linear-gradient(#243f8c, #1d7f64);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-position-y: center;
   }
 
   .pg__video {
     background-image: url('../images/video-12.png');
-
+    top: 1700px;
+    right:50px;
+    position:absolute;
   }
 
   .pg__block {
-
+    height: 600px;
+    width:250px;
+    position:absolute;
+    top:0;
+    right:0;
   }
 }
+

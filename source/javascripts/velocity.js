@@ -149,7 +149,6 @@ eigth.velocity({
     progress: function(elements, percentComplete, remaining, tweenValue, activeCall) {
         // this waits for the animation to be over and only then replaces the text
         if (tweenValue >= 442) {
-          console.log('done')
           textBox.innerHTML = `Oola poured each of us a drink,<br>choosing from the Orbitson’s expansive wet bar.<br>We were like children with taped-on corsages,<br>estimating our own depths, guessing at love.<br>The windows would be open, the smell of the city suffusing the room.<br>It ate at the curtains, warped the dark wood,<br>did all the things we as house-sitters were supposed to prevent <br>but as self-absorbed lovers found excusable.`
         }
 
@@ -161,7 +160,6 @@ eigth.velocity({
 
 // triggers animation when the user scrolls to that part of the page
 const handleDrunkScroll = () => {
-  console.log(body.getBoundingClientRect()["y"]);
   if(body.getBoundingClientRect()["y"] <= -3473) {
     drunkAnimation();
 // this line is necessary so the animation doesn't flicker / repeatedly start over
