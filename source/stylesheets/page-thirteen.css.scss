@@ -1,11 +1,22 @@
 .pg-13 {
+  // border: solid 1px red;
+  height: 500px;
   .pg__text {
+    // border: solid 1px blue;
+    width:200px;
+    position:absolute;
+    left:400px;
+    font-size:20px;
+    top: 3194px;
+    color: white;
+    line-height:1.5;
 
   }
 
   .pg__video {
     background-image: url('../images/video-13.png');
-
+    position: absolute;
+    top:0;
   }
 
   .pg__block {
