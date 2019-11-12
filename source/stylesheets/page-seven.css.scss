@@ -1,14 +1,81 @@
 .pg-7 {
+  height: 700px;
+  margin-top: 300px;
+  width: 600px;
   .pg__text {
-
+    width: 75px;
+    display: inline-block;
+    position: absolute;
+    z-index: 5;
   }
 
   .pg__video {
     background-image: url('../images/video-7.png');
+    position:absolute;
+    left:-20px;
+    top: 300px;
 
   }
 
   .pg__block {
+    width: 75px;
+    position: absolute;
+    display: inline-block;
+  }
 
+  #sad {
+    left: 0;
+    top: -479px;
+  }
+
+  #block-1 {
+    left:0px;
+    top:0px;
+    height: 600px;
+  }
+
+  #lost {
+    left: 125px;
+    top: 1181px;
+  }
+
+  #block-2 {
+    left: 125px;
+    top:0px;
+    height: 600px;
+  }
+
+  #alone {
+    left: 250px;
+    top: 1143px;
+  }
+
+  #block-3 {
+    left: 250px;
+    top:0px;
+    height: 600px;
+  }
+
+  #artist {
+    left: 375px;
+    top: -897px;
+  }
+
+  #block-4 {
+    left: 375px;
+    top:0px;
+    height: 600px;
+  }
+
+  #spinster {
+    left: 500px;
+    top: 0px;
+    top: 471px;
+  }
+
+  #block-5 {
+    left: 500px;
+    top:0px;
+    height: 600px;
   }
 }
