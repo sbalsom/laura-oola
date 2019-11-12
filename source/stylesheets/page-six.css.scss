@@ -1,10 +1,5 @@
 .pg-6 {
   height: 700px;
-  .pg__text {
-    z-index:4;
-    position:relative;
-
-  }
 
   .pg__video {
     background-image: url('../images/video-6.png');
@@ -13,6 +8,7 @@
     position:relative;
   }
 
+// these settings control the text after animation is over when it is re-rendered
   .pg__block {
     padding: 10px 0 0 18vw;
     width: 800px;
@@ -21,8 +17,10 @@
     width: 100%;
     position: absolute;
     top:0;
+    line-height: 1.8;
   }
 
+// these settings control the text pre-animation
   #first, #second, #third, #fourth, #fifth, #sixth, #seventh, #eigth {
     position:absolute;
     top:0;
@@ -31,4 +29,10 @@
     width: 800px;
     opacity:0;
   }
+
+  .pg__text {
+    z-index:4;
+    position:relative;
+  }
+
 }
