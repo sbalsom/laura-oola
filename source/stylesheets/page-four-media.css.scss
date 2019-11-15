@@ -10,7 +10,7 @@
 
   .pg-4 .pg__block {
     top: 30vh;
-    height: 50vh;
+    height: 65vh;
     width: 30vw;
     left: 40vw;
     z-index: 4;
@@ -23,6 +23,7 @@
     width: 20vw;
     top: 45vh;
     left: 44vw;
+    z-index: 5;
   }
 }
 
@@ -43,7 +44,7 @@
   .pg-4 .pg__block {
     top: 30vh;
     width: 30vw;
-    height: 50vh;
+    height: 65vh;
     left: 40vw;
     z-index: 4;
 
@@ -53,8 +54,9 @@
     top:0;
     font-size: 1.2rem;
     width: 20vw;
-    top: 45vh;
+    top: 20vh;
     left: 44vw;
+    z-index: 5;
   }
 }
 
@@ -75,7 +77,7 @@
   .pg-4 .pg__block {
     top: 30vh;
     width: 30vw;
-    height: 50vh;
+    height: 65vh;
     left: 40vw;
     z-index: 4;
 
@@ -87,6 +89,7 @@
     width: 20vw;
     top: 45vh;
     left: 44vw;
+    z-index: 5;
   }
 
 }
