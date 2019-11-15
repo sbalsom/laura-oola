@@ -20,23 +20,23 @@
       height:56vw
     }
 
-  .pg__video {
-    position:absolute;
-    top:0;
-    left:0;
-    z-index: 2;
-    background-image: url('../images/video-2.png');
-  }
+    .pg__video {
+      position:absolute;
+      top:0;
+      left:0;
+      z-index: 2;
+      background-image: url('../images/video-2.png');
+    }
 
-  .pg__text {
-    font-size:50%;
-  }
+    .pg__text {
+      font-size:50%;
+    }
 
-  .header__credits {
-    position: absolute;
-    top: 55vh;
-    left:0;
-  }
+    .header__credits {
+      position: absolute;
+      top: 55vh;
+      left:0;
+    }
 
 }
 
@@ -68,24 +68,24 @@
       height:56vw
     }
 
-  .pg__video {
-    position:absolute;
-    margin:0;
-    top:0;
-    left:0;
-    z-index: 2;
-    background-image: url('../images/video-2.png');
-  }
+    .pg__video {
+      position:absolute;
+      margin:0;
+      top:0;
+      left:0;
+      z-index: 2;
+      background-image: url('../images/video-2.png');
+    }
 
-  .pg__text {
-    font-size:50%;
-  }
+    .pg__text {
+      font-size:50%;
+    }
 
-  .header__credits {
-    position: absolute;
-    top: 450px;
-    left:21px;
-  }
+    .header__credits {
+      position: absolute;
+      top: 55vh;
+      left:21px;
+    }
 
 
 }
@@ -97,5 +97,44 @@
   and (min-device-width: 375px)
   and (max-device-width: 812px)
   and (-webkit-min-device-pixel-ratio: 3) {
+
+
+    body {
+      padding: 0;
+      width: 100vw;
+    }
+
+    .header {
+      position: relative;
+      margin: 0;
+      height: 56vw;
+      width: 100vw;
+    }
+
+    // chrome dev tools wants it to be 109vw which doesnt make any sense ? test in prod first
+
+    video {
+      width: 100vw;
+      height:56vw
+    }
+
+    .pg__video {
+      position:absolute;
+      margin:0;
+      top:0;
+      left:0;
+      z-index: 2;
+      background-image: url('../images/video-2.png');
+    }
+
+    .pg__text {
+      font-size:50%;
+    }
+
+    .header__credits {
+      position: absolute;
+      top: 55vh;
+      left:21px;
+    }
 
 }
