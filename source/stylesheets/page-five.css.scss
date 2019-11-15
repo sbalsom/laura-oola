@@ -1,18 +1,19 @@
 .pg-5 {
   height: 500px;
+
   .pg__video {
     position:absolute;
-    left: 2vw;
+    left: 0;
     z-index: 2;
     background-image: url('../images/video-5.png');
   }
   .pg__text {
     text-align: right;
     width: 330px;
-    font-size: 24px;
+    font-size: 30px;
     position:absolute;
-    left: 400px;
-    top: 600px;
+    left: 45vw;
+    // top: 300px;
     z-index: 4;
     font-weight:lighter;
   }
@@ -21,9 +22,9 @@
     width: 600px;
     height: 300px;
     position:absolute;
-    left: 400px;
-    top: 300px;
-    z-index: 3;
+    left: 25vw;
+    top: 150px;
+    z-index: 1;
   }
 
 }
