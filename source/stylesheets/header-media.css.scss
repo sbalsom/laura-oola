@@ -6,6 +6,8 @@
   and (-webkit-min-device-pixel-ratio: 2) {
     body {
       padding: 0;
+      overflow:hidden;
+      width:100vw;
     }
 
     .header {
@@ -50,7 +52,8 @@
 
     body {
       padding: 0;
-      width: 100vw;
+      overflow:hidden;
+      width:100vw;
     }
 
     .header {
@@ -100,7 +103,8 @@
 
     body {
       padding: 0;
-      width: 100vw;
+      overflow:hidden;
+      width:100vw;
     }
 
     .header {
