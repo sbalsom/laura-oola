@@ -1,29 +1,29 @@
 .pg-5 {
   height: 500px;
+  border: solid 1px red;
   .pg__video {
     position:absolute;
     left: 2vw;
-    top: 564px;
     z-index: 2;
     background-image: url('../images/video-5.png');
   }
   .pg__text {
     text-align: right;
-    width: 149px;
+    width: 330px;
     font-size: 24px;
     position:absolute;
-    left: 98px;
-    top: 1420px;
+    left: 400px;
+    top: 600px;
     z-index: 4;
     font-weight:lighter;
   }
 
   .pg__block {
     width: 600px;
-    height: 400px;
+    height: 300px;
     position:absolute;
-    left: 14vw;
-    top: 900px;
+    left: 400px;
+    top: 300px;
     z-index: 3;
   }
 

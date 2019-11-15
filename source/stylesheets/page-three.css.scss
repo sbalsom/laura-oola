@@ -15,27 +15,28 @@
     position:absolute;
     left: 10vw;
     top: -35px;
-    z-index: -1;
+    z-index: 0;
     background-image: url('../images/video-3.png');
   }
 
   .pg__block {
-    width: 200px;
-    height: 600px;
+    width: 500px;
+    height: 400px;
     position: absolute;
-    left:60%;
-    top: -256px;
-    z-index: 0;
+    left:508px;
+    top: -115px;
+    z-index:-1;
 
   }
 
   .pg__text {
-    width: 700px;
+    width: 400px;
     font-size: 24px;
     position:absolute;
-    top: 603px;
-    left: 20%;
+    top: 524px;
+    left: 580px;
     z-index: 3;
+    text-align:right;
   }
 
 }
