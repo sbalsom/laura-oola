@@ -4,11 +4,6 @@
   and (min-device-width: 375px)
   and (max-device-width: 667px)
   and (-webkit-min-device-pixel-ratio: 2) {
-    body {
-      padding: 0;
-      overflow:hidden;
-      width:100vw;
-    }
 
     .header {
       position:relative;
@@ -16,13 +11,6 @@
       height: 56vw;
       width: 100vw;
     }
-
-    video, .pg__video {
-      width: 100vw;
-      height:56vw
-    }
-
-
 
     .header .pg__video {
       position: absolute;
@@ -50,24 +38,12 @@
   and (max-device-width: 736px)
   and (-webkit-min-device-pixel-ratio: 3) {
 
-    body {
-      padding: 0;
-      overflow:hidden;
-      width:100vw;
-    }
 
     .header {
       position: relative;
       margin: 0;
       height: 56vw;
       width: 100vw;
-    }
-
-    // chrome dev tools wants it to be 109vw which doesnt make any sense ? test in prod first
-
-     video, .pg__video {
-      width: 100vw;
-      height:56vw
     }
 
     .header .pg__video {
@@ -101,12 +77,6 @@
   and (-webkit-min-device-pixel-ratio: 3) {
 
 
-    body {
-      padding: 0;
-      overflow:hidden;
-      width:100vw;
-    }
-
     .header {
       position: relative;
       margin: 0;
@@ -115,12 +85,6 @@
     }
 
     // chrome dev tools wants it to be 109vw which doesnt make any sense ? test in prod first
-
-    video, .pg__video {
-      width: 100vw;
-      height:56vw
-    }
-
 
     .header .pg__video {
       position:absolute;

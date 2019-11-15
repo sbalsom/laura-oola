@@ -3,9 +3,6 @@
   and (max-device-width: 667px)
   and (-webkit-min-device-pixel-ratio: 2) {
 
-    .pg-3 {
-      margin-left:0;
-    }
 
     .pg-3 .pg__video {
       left:0;
@@ -16,8 +13,9 @@
       width:80vw;
     }
 
+// TODO return to this to see if we can get text aligned
     .pg-3 .pg__text {
-      left: 25vw;
+      right:10vw;
       top:40vh;
       font-size: 1.3rem;
       width: 70vw;
@@ -34,9 +32,6 @@
   and (max-device-width: 736px)
   and (-webkit-min-device-pixel-ratio: 3) {
 
-      .pg-3 {
-      margin-left:0;
-    }
 
     .pg-3 .pg__video {
       left:0;
@@ -66,9 +61,6 @@
   and (max-device-width: 812px)
   and (-webkit-min-device-pixel-ratio: 3) {
 
-    .pg-3 {
-      margin-left:0;
-    }
 
     .pg-3 .pg__video {
       left:0;
