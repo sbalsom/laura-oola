@@ -13,7 +13,6 @@ secondLine = document.querySelectorAll('.second-line span')
 thirdLine = document.querySelectorAll('.third-line span')
 fourthLine = document.querySelectorAll('.fourth-line span')
 const drunkAnimation = () => {
-console.log(elements)
 firstLine.velocity({
   opacity:1
 }, {

@@ -6,7 +6,6 @@ const lineFive = document.querySelectorAll('.line-five span');
 const lineSix = document.querySelectorAll('.line-six span');
 const stanzaThree = document.querySelectorAll('#stanza-three span');
 
-
 const through = document.getElementById('through');
 const stretched = document.getElementById('stretched');
 const fabric = document.getElementById('fabric');
@@ -26,8 +25,10 @@ const mouthForced = document.getElementById('mouth-forced');
 const cheeks = document.getElementById('cheeks');
 
 const swingCurtain = () => {
+  // the last line is set on its own timer to appear last
   stanzaThree.velocity({opacity: 1}, {duration: 1500, delay: 20000, stagger:1000})
 
+// each word comes in separately at random intervals
   stroke.velocity({opacity: 1}, {duration: 1500, delay: 500})
   erased.velocity({opacity: 1}, {duration: 1500, delay: 1500})
   smudging.velocity({opacity: 1}, {duration: 1500, delay: 2500})
@@ -46,24 +47,16 @@ const swingCurtain = () => {
   face.velocity({opacity: 1}, {duration: 1500, delay: 15500})
   nose.velocity({opacity: 1}, {duration: 1500, delay: 16500})
 
-  console.log(lineOne);
+// as the words are appearing separately, the lines come and fill in one by one
   lineOne.velocity({opacity: 1}, {duration: 1500, stagger: 100})
   lineTwo.velocity({opacity: 1}, {duration: 1500, stagger: 100})
   lineThree.velocity({opacity: 1}, {duration: 1500, stagger: 100})
   lineFour.velocity({opacity: 1}, {duration: 1500, stagger: 100})
   lineFive.velocity({opacity: 1}, {duration: 1500, stagger: 100})
   lineSix.velocity({opacity: 1}, {duration: 1500, stagger: 100})
-
-  // lineOne.velocity({opacity: 1}, {duration: 1500, delay: 500})
-  // lineTwo.velocity({opacity: 1}, {duration: 1500, delay: 2000})
-  // lineThree.velocity({opacity: 1}, {duration: 1500, delay: 4000})
-  // lineFour.velocity({opacity: 1}, {duration: 1500, delay: 6000})
-  // lineFive.velocity({opacity: 1}, {duration: 1500, delay: 10000})
-  // lineSix.velocity({opacity: 1}, {duration: 1500, delay: 12000})
-  // stanzaThree.velocity({opacity: 1}, {duration: 1500, delay: 15000})
 }
 
-
+// it used to have a curtain effect, I just kept the name of the animation the same
 const handleCurtainScroll = () => {
   if(body.getBoundingClientRect()["y"] <= -8000) {
 
