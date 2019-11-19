@@ -1,24 +1,29 @@
 .pg-9 {
-  height: 500px;
+  height: 700px;
+
   .pg__text {
-    font-size: 24px;
-    width: 400px;
+    font-size: 30px;
+    width: 500px;
     position:absolute;
-    left: 300px;
+    right: 100px;
     top: 400px;
     z-index:5;
+    text-align:right;
   }
 
   .pg__video {
     background-image: url('../images/video-9.png');
     position: absolute;
+    left:0;
+    z-index:2;
   }
 
   .pg__block {
-    width: 500px;
-    height: 300px;
+    width: 600px;
+    height: 360px;
     position: absolute;
-    left: 250px;
-    top: 300px;
+    left: 100px;
+    top: 100px;
+    z-index:1;
   }
 }

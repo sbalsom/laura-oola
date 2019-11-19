@@ -1,15 +1,26 @@
 .pg-10 {
-  height: 500px;
+  height: 1000px;
+
   .pg__text {
-    font-size: 24px;
-    width: 150px;
+    font-size: 30px;
+    width: 200px;
+    position: absolute;
+    left: 13vw;
 
   }
   .pg__video {
     background-image: url('../images/video-10.png');
     position: absolute;
-    left: 200px;
+    right: 0;
 
+  }
+
+  .pg__block {
+    width: 300px;
+    height: 600px;
+    position:absolute;
+    top:-50px;
+    left:10vw;
   }
 
 }

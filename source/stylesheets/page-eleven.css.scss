@@ -1,32 +1,58 @@
+.pg-11__line span  {
+  opacity: 0;
+}
+
 .pg-11 {
-  height: 700px;
-  width:640px;
+  height: 1400px;
   margin-top:0;
   .pg__text {
-    width: 400px;
-    line-height:2;
+    position: absolute;
+    right:10vw;
+    top: 150px;
+    width: 600px;
+    font-size: 24px;
+    text-align: center;
+    z-index: 10;
+    font-size: 30px;
   }
 
-  #half-one {
-    position:absolute;
-    margin-left:120px;
-    top: 50px
+  #stanza-one {
+    margin: 40px 0;
   }
 
-  #half-two {
-    position:absolute;
-    top:50px;
-    right:0;
-    text-align:right;
-    margin-right:120px;
+  #stanza-two {
+    margin: 40px 0;
   }
+
+   #stanza-three {
+    font-size:40px;
+    position:absolute;
+    top:548px;
+    width:100%;
+    text-align:center;
+  }
+
+  video {
+    width: 80vw;
+    height: 45vw;
+  }
+
   .pg__video {
     background-image: url('../images/video-11.png');
     position:absolute;
+    top: 700px;
     right:0;
+    z-index: 2;
+    width: 80vw;
+    height: 45vw;
   }
 
   .pg__block {
-
+    height: 500px;
+    width:800px;
+    position:absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
   }
 }

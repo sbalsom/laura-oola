@@ -1,75 +1,47 @@
 .pg-7 {
   height: 700px;
   margin-top: 300px;
-  width: 600px;
   .pg__text {
-    width: 75px;
+    width: 500px;
     display: inline-block;
     position: absolute;
     z-index: 5;
+    font-size:30px;
+    right:0;
+    text-align:right;
   }
 
   .pg__video {
     background-image: url('../images/video-7.png');
     position:absolute;
-    left:-20px;
-    top: 300px;
-
+    left:100px;
+    top: 60px;
+    z-index:5;
   }
 
   .pg__block {
-    width: 75px;
+    width: 600px;
+    height:400px;
     position: absolute;
     display: inline-block;
+    left:-20vw;
   }
 
   #sad {
-    left: 0;
-  }
-
-  #block-1 {
-    left:0px;
-    top:0px;
-    height: 600px;
-  }
-
-  #lost {
-    left: 125px;
-  }
-
-  #block-2 {
-    left: 125px;
-    top:0px;
-    height: 600px;
+    top:0;
   }
 
   #alone {
-    left: 250px;
-  }
-
-  #block-3 {
-    left: 250px;
-    top:0px;
-    height: 600px;
+    top:170px;
   }
 
   #artist {
-    left: 375px;
-  }
-
-  #block-4 {
-    left: 375px;
-    top:0px;
-    height: 600px;
+    top:340px;
   }
 
   #spinster {
-    left: 500px;
+    top:510px;
   }
 
-  #block-5 {
-    left: 500px;
-    top:0px;
-    height: 600px;
-  }
+
 }

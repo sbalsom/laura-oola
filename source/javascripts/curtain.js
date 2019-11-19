@@ -1,57 +1,68 @@
-const halfOne = document.getElementById('half-one');
-const halfTwo = document.getElementById('half-two');
-const movingVideo = document.getElementById('moving-video');
+const lineOne = document.querySelectorAll('.line-one span');
+const lineTwo = document.querySelectorAll('.line-two span');
+const lineThree = document.querySelectorAll('.line-three span');
+const lineFour = document.querySelectorAll('.line-four span');
+const lineFive = document.querySelectorAll('.line-five span');
+const lineSix = document.querySelectorAll('.line-six span');
+const stanzaThree = document.querySelectorAll('#stanza-three span');
 
-const moveVideo = () => {
-  movingVideo.velocity({
-    top: 300
-  }, {
-    duration: 2500
-  })
-}
+
+const through = document.getElementById('through');
+const stretched = document.getElementById('stretched');
+const fabric = document.getElementById('fabric');
+const features = document.getElementById('features');
+const blurred = document.getElementById('blurred');
+const stroke = document.getElementById('stroke');
+const smudging = document.getElementById('smudging');
+const next = document.getElementById('next');
+const open = document.getElementById('open');
+const penciling = document.getElementById('penciling');
+const face = document.getElementById('face');
+const ruined = document.getElementById('ruined');
+const erased = document.getElementById('erased');
+const eyelashes = document.getElementById('eyelashes');
+const nose = document.getElementById('nose');
+const mouthForced = document.getElementById('mouth-forced');
+const cheeks = document.getElementById('cheeks');
 
 const swingCurtain = () => {
-  halfOne.velocity({
-      'margin-left':0  }, {
-    duration: 5000
-  }).velocity({
-    right: -81,
-    top:400
-  }, {
-    duration: 5000
-  });
-  halfTwo.velocity({
-    'margin-right':0  }, {
-    duration: 5000
-  }).velocity({
-    left:-81,
-    top:380
-  }, {
-    duration:5000,
-    progress: function(elements, percentComplete, remaining, tweenValue, activeCall) {
-        // this waits for the animation to be over and only then replaces the text
-        if (percentComplete >= 0.5) {
+  stanzaThree.velocity({opacity: 1}, {duration: 1500, delay: 20000, stagger:1000})
 
-        halfOne.innerHTML = ` her features were<br>
-         hander had been penciling her,<br>
-         as he made the next, a face not<br>
-         Her eyelashes were crimped,<br>
-         her mouth forced open, her cheeks<br>
-         could we made eye contact.`
-        halfTwo.innerHTML = `Through the stretched fabric,<br>
-          blurred, as if a left-<br>
-          smudging the last stroke<br>
-          so much ruined as erased.<br>
-          her nose squished,<br>
-          Botoxed back. As best we`
+  stroke.velocity({opacity: 1}, {duration: 1500, delay: 500})
+  erased.velocity({opacity: 1}, {duration: 1500, delay: 1500})
+  smudging.velocity({opacity: 1}, {duration: 1500, delay: 2500})
+  cheeks.velocity({opacity: 1}, {duration: 1500, delay: 3500})
+  mouthForced.velocity({opacity: 1}, {duration: 1500, delay: 4500})
+  through.velocity({opacity: 1}, {duration: 1500, delay: 500})
+  ruined.velocity({opacity: 1}, {duration: 1500, delay: 6500})
+  next.velocity({opacity: 1}, {duration: 1500, delay: 7500})
+  blurred.velocity({opacity: 1}, {duration: 1500, delay: 8500})
+  open.velocity({opacity: 1}, {duration: 1500, delay: 9500})
+  stretched.velocity({opacity: 1}, {duration: 1500, delay: 10500})
+  eyelashes.velocity({opacity: 1}, {duration: 1500, delay: 11500})
+  penciling.velocity({opacity: 1}, {duration: 1500, delay: 12500})
+  features.velocity({opacity: 1}, {duration: 1500, delay: 13500})
+  fabric.velocity({opacity: 1}, {duration: 1500, delay: 14500})
+  face.velocity({opacity: 1}, {duration: 1500, delay: 15500})
+  nose.velocity({opacity: 1}, {duration: 1500, delay: 16500})
 
-        moveVideo();
-        }
+  console.log(lineOne);
+  lineOne.velocity({opacity: 1}, {duration: 1500, stagger: 100})
+  lineTwo.velocity({opacity: 1}, {duration: 1500, stagger: 100})
+  lineThree.velocity({opacity: 1}, {duration: 1500, stagger: 100})
+  lineFour.velocity({opacity: 1}, {duration: 1500, stagger: 100})
+  lineFive.velocity({opacity: 1}, {duration: 1500, stagger: 100})
+  lineSix.velocity({opacity: 1}, {duration: 1500, stagger: 100})
 
-
-    }
-});
+  // lineOne.velocity({opacity: 1}, {duration: 1500, delay: 500})
+  // lineTwo.velocity({opacity: 1}, {duration: 1500, delay: 2000})
+  // lineThree.velocity({opacity: 1}, {duration: 1500, delay: 4000})
+  // lineFour.velocity({opacity: 1}, {duration: 1500, delay: 6000})
+  // lineFive.velocity({opacity: 1}, {duration: 1500, delay: 10000})
+  // lineSix.velocity({opacity: 1}, {duration: 1500, delay: 12000})
+  // stanzaThree.velocity({opacity: 1}, {duration: 1500, delay: 15000})
 }
+
 
 const handleCurtainScroll = () => {
   if(body.getBoundingClientRect()["y"] <= -8000) {
