@@ -1,7 +1,6 @@
 .pg-13__text div {
     position:absolute;
     width: 600px;
-    // opacity:0;
 }
 
 
@@ -13,20 +12,25 @@
     font-size:20px;
     line-height:1.5;
     z-index: 3;
+  }
 
+  .before-animate {
+    opacity: 0;
   }
 
   .pg__video {
     background-image: url('../images/video-13.png');
     position: absolute;
     top:0;
+    right:0;
   }
 
   .pg__block {
     width:450px;
     height: 700px;
-    left:450px;
+    left:0;
     position: absolute;
+    padding: 5vw;
   }
 
   #oola-3 {
@@ -34,112 +38,55 @@
   }
 
   #silver {
-    top: -40px;
+    top: 0px;
+    width: 350px;
   }
 
   #paranormal {
-    top: -40px;
-    left: 500px;
+    top: 52px;
+    left: 155px;
   }
 
-  .scroll-1 {
-    width: 150px;
-    left:490px;
-    height: 60px;
-    overflow: scroll;
-    top:40px;
-    z-index:5;
-    font-size:15px;
-    color:white;
+  .stanza-four {
+    width: 350px;
+    top: 99px;
+  }
+
+  .stanza-five {
+    width: 350px;
+    top: 319px;
   }
 
   #stamp {
-    top: 150px;
-    left: 458px;
-    font-size:18px;
+    top: 261px;
+    font-size:24px;
+    width: 250px;
+    left: 81px;
   }
 
-  .scroll-2 {
-    width: 150px;
-    left:490px;
-    height: 60px;
-    overflow: scroll;
-    top:250px;
-    z-index:5;
-    font-size:15px;
-    color:white;
-  }
 
   #fine {
-    top:220px;
+    top:397px;
     font-size:40px;
-    left:10px;
+    left:113px;
 
   }
 
   #feminine {
-    top: 245px;
+    top: 417px;
     font-size:40px;
-    left:40px;
+    left:160px;
 
   }
 
   #smear {
-    top: 265px;
+    top: 436px;
     font-size:40px;
-    left:100px;
+    left:231px;
 
   }
 
 
 }
 
-
-  // #look {
-  //   top: 40px;
-  //   font-size: 15px;
-  //   left: 491px;
-  // }
-
-  // #floor {
-  //   top: 80px;
-  //   left: 659px;
-  // }
-
-  // #violin {
-  //   top: 118px;
-  //   left: 491px;
-  // }
-
-  // #bones {
-  //   top: 160px;
-  //   left: 449px;
-  // }
-
-  // #mouth-2 {
-  //   top: 200px;
-  //   left: 500px;
-  // }
-
-  // #stamp {
-  //   top: 240px;
-  //   left: 600px;
-  // }
-
-  // #anyone {
-  //   top: 300px;
-  //   left: 491px;
-  //   width: 300px;
-  //   text-align:center;
-  // }
-
-  // #grandmother {
-  //   top: 400px;
-  //   left: 491px;
-  // }
-
-  // #love {
-  //   top: 500px;
-  //   left: 491px;
-  // }
 
