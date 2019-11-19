@@ -1,11 +1,36 @@
 .pg-14 {
+    height: 60vw;
   .pg__text {
 
   }
 
+  #stopped {
+    position:absolute;
+    top:0;
+    text-align:center;
+    font-size: 24px;
+  }
+
+  #gender {
+    position:absolute;
+    bottom: 0;
+    text-align:center;
+    width: 80vw;
+    font-size: 40px;
+  }
+
   .pg__video {
     background-image: url('../images/video-14.png');
+    width: 80vw;
+    height: 45vw;
+    position: absolute;
+    top: 100px;
 
+  }
+
+  video {
+    width: 80vw;
+    height: 45vw;
   }
 
   .pg__block {
