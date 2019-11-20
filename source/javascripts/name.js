@@ -125,7 +125,7 @@ const animateName = () => {
 
 // triggers animation when the user scrolls to that part of the page
 const handleNameScroll = () => {
-  if(body.getBoundingClientRect()["y"] <= -5100) {
+  if(body.getBoundingClientRect()["y"] <= -6360) {
     animateName();
 // this line is necessary so the animation doesn't flicker / repeatedly start over
   window.removeEventListener('scroll', handleNameScroll);

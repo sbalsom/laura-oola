@@ -9,7 +9,6 @@ const appearWords = () => {
 }
 
 const handleMusicScroll = () => {
-  console.log(body.getBoundingClientRect()["y"])
 
   if(body.getBoundingClientRect()["y"] <= -5200) {
 
