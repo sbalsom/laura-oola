@@ -8,7 +8,6 @@ const feminine = document.getElementById('feminine');
 const smear = document.getElementById('smear');
 
 const smearText = () => {
-  console.log('smearing');
   silver.velocity({opacity: 1}, {duration: 1500})
   paranormal.velocity({opacity: 1}, {duration: 1500, delay: 1500})
   stanzaFour.velocity({opacity: 1}, {duration: 3000, delay: 2500})

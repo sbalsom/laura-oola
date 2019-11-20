@@ -1,25 +1,25 @@
 .pg-6 {
-  height: 700px;
-
+  height: 1500px;
   .pg__video {
     background-image: url('../images/video-6.png');
     margin:0 auto;
-    z-index: 2;
+    z-index: -6;
     position:absolute;
-    top:160px;
-    right:0;
-    height:432px;
-    width:768px;
+    top:100px;
+    height:33.75vw;
+    width:60vw;
+  }
+
+  video {
+    height:33.75vw;
+    width:60vw;
   }
 
   .pg__block {
-    // padding: 10px 0 0 18vw;
     width: 150vw;
-    // font-size: 20px;
     height: 360px;
     position: absolute;
-    top:200px;
-    // line-height: 1.8;
+    top:600px;
     left:-20vw;
   }
 
@@ -27,31 +27,59 @@
     opacity:0;
   }
 
-  .first-line {
-    position: absolute;
-    top:0;
-  }
-
-  .second-line {
-    position:absolute;
-    top:100px;
-  }
-
-  .third-line {
-    position:absolute;
-    top:600px;
-  }
-
-  .fourth-line {
-    position:absolute;
-    top:700px;
-  }
   .pg__text {
     z-index:4;
     position:relative;
-    font-size:30px;
     width:70vw;
     max-width:600px;
   }
 
+  .first-line {
+    font-size: 30px;
+    position: absolute;
+    top:-80px;
+    left: -10vw;
+  }
+
+  .second-line {
+    position:absolute;
+    font-size: 30px;
+    top:100px;
+    left: 65vw;
+    width: 50px;
+  }
+
+  .third-line {
+    position:absolute;
+    top:650px;
+    font-size: 30px;
+    left: 30px;
+  }
+
+  .fourth-line {
+    top: 1160px;
+    font-size: 30px;
+    position:absolute;
+    right: -469px;
+    width: 600px;
+  }
+
+
+  #cover-top {
+    width: 100vw;
+    height:10000px;
+    z-index: -5;
+    background: white;
+    position:absolute;
+    bottom: 1405px;
+  }
+
+  #cover {
+    width: 100vw;
+    height:10000px;
+    z-index: -5;
+    background: white;
+    position:absolute;
+    top: 1100px;
+  }
 }
