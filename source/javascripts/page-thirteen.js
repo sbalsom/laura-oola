@@ -30,3 +30,5 @@ const handleSmearScroll = () => {
 
 window.addEventListener('scroll', handleSmearScroll);
 
+
+

@@ -5,14 +5,14 @@
  */
 
 //  // each line is its own object
-const body = document.querySelector('body');
+console.log('page six loaded');
 
 elements = document.querySelectorAll(".blasted-text span");
 firstLine = document.querySelectorAll('.first-line span')
 secondLine = document.querySelectorAll('.second-line span')
 thirdLine = document.querySelectorAll('.third-line span')
 fourthLine = document.querySelectorAll('.fourth-line span')
-const drunkAnimation = () => {
+const pageSixAnimation = () => {
 firstLine.velocity({
   opacity:1
 }, {
@@ -43,15 +43,15 @@ fourthLine.velocity({
 
 
 // triggers animation when the user scrolls to that part of the page
-const handleDrunkScroll = () => {
+const handlePageSixScroll = () => {
   if(body.getBoundingClientRect()["y"] <= -3473) {
-    drunkAnimation();
+    pageSixAnimation();
 // this line is necessary so the animation doesn't flicker / repeatedly start over
-  window.removeEventListener('scroll', handleDrunkScroll);
+  window.removeEventListener('scroll', handlePageSixScroll);
   }
 }
 
-window.addEventListener('scroll', handleDrunkScroll);
+window.addEventListener('scroll', handlePageSixScroll);
 
 
 

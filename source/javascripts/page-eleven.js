@@ -56,6 +56,7 @@ const swingCurtain = () => {
   lineSix.velocity({opacity: 1}, {duration: 1500, stagger: 100})
 }
 
+// rename this function and use the scrollY instead of this rectangle thing
 // it used to have a curtain effect, I just kept the name of the animation the same
 const handleCurtainScroll = () => {
   if(body.getBoundingClientRect()["y"] <= -8000) {
@@ -68,4 +69,6 @@ const handleCurtainScroll = () => {
 }
 
 window.addEventListener('scroll', handleCurtainScroll);
+
+
 
