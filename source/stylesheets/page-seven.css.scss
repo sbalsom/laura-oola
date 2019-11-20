@@ -2,13 +2,12 @@
   height: 700px;
   margin-top: 300px;
   .pg__text {
-    width: 500px;
+
     display: inline-block;
     position: absolute;
     z-index: 5;
     font-size:30px;
     right:0;
-    text-align:right;
   }
 
   .pg__video {
@@ -26,22 +25,24 @@
     left:-20vw;
   }
 
+  .invisible {
+    opacity: 0;
+  }
+
   #sad {
-    top:0;
+    top: -332px;
   }
 
   #alone {
-    top:170px;
+    width: 500px;
+    top: -209px;
+    left: -10vw;
   }
 
   #artist {
-    top:340px;
+    width: 942px;
+    top:496px;
   }
-
-  #spinster {
-    top:510px;
-  }
-
 
 }
 
