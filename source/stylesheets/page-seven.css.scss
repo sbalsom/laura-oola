@@ -1,5 +1,5 @@
 .pg-7 {
-  height: 700px;
+  height: 1500px;
   margin-top: 300px;
   .pg__text {
 
@@ -14,7 +14,7 @@
     background-image: url('../images/video-7.png');
     position:absolute;
     left:100px;
-    top: 60px;
+    top: 277px;
   }
 
   .pg__block {
@@ -35,13 +35,17 @@
 
   #alone {
     width: 500px;
-    top: -209px;
-    left: -10vw;
+    top: -32px;
+    left: 0;
   }
 
   #artist {
     width: 942px;
-    top:496px;
+    top: 992px;
+  }
+
+  #chopin {
+    opacity: 0;
   }
 
 }

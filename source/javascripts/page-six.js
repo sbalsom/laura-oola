@@ -4,16 +4,13 @@
  * Licensed under the MIT license. See LICENSE file in the project root for details.
  */
 
-//  // each line is its own object
+//  each line is its own object
 const video = document.querySelector('.pg-6 .pg__video');
 const elements = document.querySelectorAll(".blasted-text span");
-const firstLine = document.querySelectorAll('.first-line span')
-const secondLine = document.querySelectorAll('.second-line span')
-const thirdLine = document.querySelectorAll('.third-line span')
-const fourthLine = document.querySelectorAll('.fourth-line span')
-
-
-
+const firstLine = document.querySelectorAll('.first-line span');
+const secondLine = document.querySelectorAll('.second-line span');
+const thirdLine = document.querySelectorAll('.third-line span');
+const fourthLine = document.querySelectorAll('.fourth-line span');
 
 const pageSixAnimation = () => {
 
@@ -42,8 +39,7 @@ const revealLineThree = () => {
 const revealLineFour = () => {
   fourthLine.velocity({
     opacity:1}, {
-    stagger: 300,
-    duration:1000
+    duration:2000
   });
 }
 
