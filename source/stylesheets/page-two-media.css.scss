@@ -1,7 +1,8 @@
+
+//  ---------iPhone 4, Samsung 5, iPhone 6, 7, 8, and plus---------
 @media only screen
-  and (min-device-width: 375px)
-  and (max-device-width: 667px)
-  and (-webkit-min-device-pixel-ratio: 2) {
+  and (min-device-width: 320px)
+  and (max-device-width: 736px) {
 
     .pg-2 .pg__text {
       width: 70vw;
@@ -10,7 +11,7 @@
     }
 
     .pg-2 .pg__block {
-      top: 20vh;
+      top: 20vw;
       width: 80vw;
       height: 100vw;
       left:10vw;
@@ -18,41 +19,12 @@
 
   .pg-2 .pg__video {
     left:0;
-    top: 70vh;
+    top: 90vw;
     z-index: 4;
   }
 
 }
 
-/* ----------- iPhone 6+, 7+ and 8+ ----------- */
-
-/* Portrait and Landscape */
-@media only screen
-  and (min-device-width: 414px)
-  and (max-device-width: 736px)
-  and (-webkit-min-device-pixel-ratio: 3) {
-
-
-    .pg-2 .pg__text {
-      width: 70vw;
-      font-size: 30px;
-      left: 5vw;
-    }
-
-    .pg-2 .pg__block {
-      top: 20vh;
-      width: 80vw;
-      height: 100vw;
-      left:10vw;
-    }
-
-  .pg-2 .pg__video {
-    left:0;
-    top: 50vh;
-    z-index: 4;
-  }
-
-}
 
 /* ----------- iPhone X ----------- */
 
@@ -62,7 +34,6 @@
   and (max-device-width: 812px)
   and (-webkit-min-device-pixel-ratio: 3) {
 
-
     .pg-2 .pg__text {
       width: 70vw;
       font-size: 30px;
@@ -70,7 +41,7 @@
     }
 
     .pg-2 .pg__block {
-      top: 20vh;
+      top: 20vw;
       width: 80vw;
       height: 100vw;
       left:10vw;
@@ -78,7 +49,7 @@
 
   .pg-2 .pg__video {
     left:0;
-    top: 50vh;
+    top: 90vw;
     z-index: 4;
   }
 
