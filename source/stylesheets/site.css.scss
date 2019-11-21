@@ -1,7 +1,8 @@
 @import url("https://use.typekit.net/cjd6iwn.css");
 // font-family: big-caslon-fb, serif;
 
-@import 'parallax.css.scss';
+@import 'global.css.scss';
+@import 'global-media.css.scss';
 @import 'header.css.scss';
 @import 'header-media.css.scss';
 @import 'page-two.css.scss';
@@ -22,110 +23,6 @@
 @import 'page-thirteen.css.scss';
 @import 'page-fourteen.css.scss';
 @import 'page-fifteen.css.scss';
+@import 'credits.css.scss';
 
 
-@media only screen
-  and (min-device-width: 375px)
-  and (max-device-width: 667px)
-  and (-webkit-min-device-pixel-ratio: 2) {
-    body {
-      padding: 0;
-      // height: 100000px;
-      // overflow-x:hidden;
-      width:100vw;
-      // height: fit-content;
-    }
-
-    .pg__block {
-      width: 80vw;
-    }
-
-    video, .pg__video {
-      width: 100vw;
-      height:56vw
-    }
-
-    .pg {
-      width: 100vw;
-      margin: 15vh 0;
-      height: 100vh;
-      // border: solid 1px red;
-    }
-
-
-
-
-}
-
-/* ----------- iPhone 6+, 7+ and 8+ ----------- */
-
-/* Portrait and Landscape */
-@media only screen
-  and (min-device-width: 414px)
-  and (max-device-width: 736px)
-  and (-webkit-min-device-pixel-ratio: 3) {
-
-    body {
-      padding: 0;
-      // height: 100000px;
-      // overflow-x:hidden;
-      width:100vw;
-      // height: fit-content;
-    }
-
-    .pg__block {
-      width: 80vw;
-    }
-
-    video, .pg__video {
-      width: 100vw;
-      height:56vw
-    }
-
-
- .pg {
-      width: 100vw;
-      margin: 15vh 0;
-      height: 100vh;
-    }
-
-
-
-
-}
-
-/* ----------- iPhone X ----------- */
-
-/* Portrait and Landscape */
-@media only screen
-  and (min-device-width: 375px)
-  and (max-device-width: 812px)
-  and (-webkit-min-device-pixel-ratio: 3) {
-
-    body {
-      padding: 0;
-      // height: 100000px;
-      // overflow-x:hidden;
-      width:100vw;
-      // height: fit-content;
-    }
-
-    .pg__block {
-      width: 80vw;
-    }
-
-    video, .pg__video {
-      width: 100vw;
-      height:56vw
-    }
-
-
- .pg {
-      width: 100vw;
-      margin: 15vh 0;
-      height: 100vh;
-    }
-
-
-
-}
