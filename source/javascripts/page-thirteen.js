@@ -7,7 +7,7 @@ const fine = document.getElementById('fine');
 const feminine = document.getElementById('feminine');
 const smear = document.getElementById('smear');
 
-const smearText = () => {
+const animatePageThirteen = () => {
   silver.velocity({opacity: 1}, {duration: 1500})
   paranormal.velocity({opacity: 1}, {duration: 1500, delay: 1500})
   stanzaFour.velocity({opacity: 1}, {duration: 3000, delay: 2500})
@@ -18,17 +18,15 @@ const smearText = () => {
   smear.velocity({opacity: 1}, {duration: 1500, delay: 11000})
 }
 
-const handleSmearScroll = () => {
+const handlePageThirteenScroll = () => {
   if(window.scrollY > 13470) {
-
-  smearText();
-
+    animatePageThirteen();
 // this line is necessary so the animation doesn't flicker / repeatedly start over
-  window.removeEventListener('scroll', handleSmearScroll);
+  window.removeEventListener('scroll', handlePageThirteenScroll);
   }
 }
 
-window.addEventListener('scroll', handleSmearScroll);
+window.addEventListener('scroll', handlePageThirteenScroll);
 
 
 

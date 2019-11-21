@@ -13,7 +13,7 @@ const cream = document.getElementById('cream');
 const mouth = document.getElementById('mouth');
 
 
-const appearText = () => {
+const animateStanzaTwo = () => {
   name.velocity({
     opacity: 1
   }, {
@@ -97,7 +97,7 @@ const appearText = () => {
   });
 }
 
-const animateName = () => {
+const animatePageEight = () => {
   oola.velocity({
     opacity: 1,
     "font-size" : 400
@@ -114,7 +114,7 @@ const animateName = () => {
     progress: function(elements, percentComplete, remaining, tweenValue, activeCall) {
         // this waits for the animation to be over and only then replaces the text
         if (tweenValue > 442) {
-          appearText();
+          animateStanzaTwo();
         }
 
     }
@@ -124,15 +124,15 @@ const animateName = () => {
 
 
 // triggers animation when the user scrolls to that part of the page
-const handleNameScroll = () => {
+const handlePageEightScroll = () => {
   if(window.scrollY > 7558) {
-    animateName();
+    animatePageEight();
 // this line is necessary so the animation doesn't flicker / repeatedly start over
-  window.removeEventListener('scroll', handleNameScroll);
+  window.removeEventListener('scroll', handlePageEightScroll);
   }
 }
 
-window.addEventListener('scroll', handleNameScroll);
+window.addEventListener('scroll', handlePageEightScroll);
 
 
 

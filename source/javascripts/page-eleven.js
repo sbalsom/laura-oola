@@ -24,7 +24,7 @@ const nose = document.getElementById('nose');
 const mouthForced = document.getElementById('mouth-forced');
 const cheeks = document.getElementById('cheeks');
 
-const swingCurtain = () => {
+const animatePageElevent = () => {
   // the last line is set on its own timer to appear last
   stanzaThree.velocity({opacity: 1}, {duration: 1500, delay: 3000, stagger:1000})
 
@@ -58,17 +58,17 @@ const swingCurtain = () => {
 
 // rename this function and use the scrollY instead of this rectangle thing
 // it used to have a curtain effect, I just kept the name of the animation the same
-const handleCurtainScroll = () => {
+const handlePageElevenScroll = () => {
   if(window.scrollY > 10683 ) {
 
-  swingCurtain();
+  animatePageElevent();
 
 // this line is necessary so the animation doesn't flicker / repeatedly start over
-  window.removeEventListener('scroll', handleCurtainScroll);
+  window.removeEventListener('scroll', handlePageElevenScroll);
   }
 }
 
-window.addEventListener('scroll', handleCurtainScroll);
+window.addEventListener('scroll', handlePageElevenScroll);
 
 
 
