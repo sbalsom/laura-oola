@@ -1,13 +1,14 @@
 .pg-6 {
-  height: 1500px;
+  height: 1900px;
   .pg__video {
     background-image: url('../images/video-6.png');
     margin:0 auto;
     z-index: -6;
     position:absolute;
-    top:100px;
+    top:300px;
     height:33.75vw;
     width:60vw;
+    left: 0;
   }
 
   video {
@@ -19,7 +20,7 @@
     width: 150vw;
     height: 360px;
     position: absolute;
-    top:600px;
+    top: 749px;
     left:-20vw;
   }
 
@@ -30,56 +31,37 @@
   .pg__text {
     z-index:4;
     position:relative;
-    width:70vw;
-    max-width:600px;
+    width:100%;
   }
 
   .first-line {
     font-size: 30px;
     position: absolute;
-    top:-80px;
+    top:80px;
     left: -10vw;
   }
 
   .second-line {
     position:absolute;
     font-size: 30px;
-    top:100px;
+    top:256px;
     left: 65vw;
     width: 50px;
   }
 
   .third-line {
     position:absolute;
-    top:650px;
+    top: 965px;
     font-size: 30px;
     left: 30px;
   }
 
   .fourth-line {
-    top: 1160px;
-    font-size: 30px;
-    position:absolute;
-    right: -469px;
+    top: 1382px;
+    font-size: 23px;
+    position: absolute;
+    right: 0;
     width: 600px;
   }
 
-
-  #cover-top {
-    width: 100vw;
-    height:10000px;
-    z-index: -5;
-    background: white;
-    position:absolute;
-    bottom: 1405px;
-  }
-
-  #cover {
-    width: 100vw;
-    height:10000px;
-    z-index: -5;
-    background: white;
-    position:absolute;
-    top: 1100px;
-  }
 }

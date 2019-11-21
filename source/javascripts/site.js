@@ -22,60 +22,16 @@ let loadJS = function(src) {
   head.appendChild(jsLink);
 };
 
+// header animation is loaded first
+
+loadJS('javascripts/header.js');
+
+// other javascript files are lazy loaded
 document.addEventListener('DOMContentLoaded', function(event) {
-  loadJS('javascripts/header.js');
+  loadJS('javascripts/page-six.js');
+  loadJS('javascripts/page-seven.js');
+  loadJS('javascripts/page-eight.js');
+  loadJS('javascripts/page-eleven.js');
+  loadJS('javascripts/page-thirteen.js');
+
  });
-
-// each page of javascript is loaded from within this file, only when the user scrolls to see that animation
-
-const loadPageSix = () => {
-  if(window.scrollY > 3356) {
-    loadJS('javascripts/page-six.js');
-    window.removeEventListener('scroll', loadPageSix);
-  }
-}
-
-window.addEventListener('scroll', loadPageSix);
-
-const loadPageSeven = () => {
-  if(window.scrollY > 4700) {
-    loadJS('javascripts/page-seven.js');
-    window.removeEventListener('scroll', loadPageSeven);
-  }
-}
-
-window.addEventListener('scroll', loadPageSeven);
-
-const loadPageEight = () => {
-  if(window.scrollY > 4900) {
-    loadJS('javascripts/page-eight.js');
-    window.removeEventListener('scroll', loadPageEight);
-  }
-}
-
-window.addEventListener('scroll', loadPageEight);
-
-
-const loadPageEleven = () => {
-  if(window.scrollY > 9191) {
-    loadJS('javascripts/page-eleven.js');
-    window.removeEventListener('scroll', loadPageEleven);
-  }
-}
-
-window.addEventListener('scroll', loadPageEleven);
-
-
-const loadPageThirteen = () => {
-  if(window.scrollY > 11922) {
-    loadJS('javascripts/page-thirteen.js');
-    window.removeEventListener('scroll', loadPageThirteen);
-  }
-}
-
-window.addEventListener('scroll', loadPageThirteen);
-
-
-
-
-
