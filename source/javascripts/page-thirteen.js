@@ -19,7 +19,7 @@ const smearText = () => {
 }
 
 const handleSmearScroll = () => {
-  if(body.getBoundingClientRect()["y"] <= -11805) {
+  if(window.scrollY > 13470) {
 
   smearText();
 
