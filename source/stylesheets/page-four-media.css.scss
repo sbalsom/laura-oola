@@ -3,15 +3,16 @@
   and (max-device-width: 812px) {
 
   .pg-4 {
+        height: 100vh;
     border: solid 1px red;
   }
   .pg-4 .pg__video {
-    top: -30vw;
+    top: 51vw;
     z-index: 0;
   }
 
   .pg-4 .pg__block {
-    top: -14vw;
+    top: 65vw;
     height: 65vh;
     width: 30vw;
     left: 40vw;
@@ -20,7 +21,7 @@
   }
 
   .pg-4 .pg__text {
-    top: 0;
+    top: 79vw;
     font-size: 1.2rem;
     width: 20vw;
     left: 44vw;
@@ -28,69 +29,6 @@
   }
 }
 
-/* ----------- iPhone 6+, 7+ and 8+ ----------- */
-
-// // /* Portrait and Landscape */
-// @media only screen
-//   and (min-device-width: 414px)
-//   and (max-device-width: 736px)
-//   and (-webkit-min-device-pixel-ratio: 3) {
-
-
-//   .pg-4 .pg__video {
-//     top: 20vh;
-//     z-index: 0;
-//   }
-
-//   .pg-4 .pg__block {
-//     top: 30vh;
-//     width: 30vw;
-//     height: 65vh;
-//     left: 40vw;
-//     z-index: 4;
-
-//   }
-
-//   .pg-4 .pg__text {
-//     top:0;
-//     font-size: 1.2rem;
-//     width: 20vw;
-//     top: 20vh;
-//     left: 44vw;
-//     z-index: 5;
-//   }
-// }
-
-// // /* ----------- iPhone X ----------- */
-
-// // /* Portrait and Landscape */
-// @media only screen
-//   and (min-device-width: 375px)
-//   and (max-device-width: 812px)
-//   and (-webkit-min-device-pixel-ratio: 3) {
-
-
-//   .pg-4 .pg__video {
-//     top: 20vh;
-//     z-index: 0;
-//   }
-
-//   .pg-4 .pg__block {
-//     top: 30vh;
-//     width: 30vw;
-//     height: 65vh;
-//     left: 40vw;
-//     z-index: 4;
-
-//   }
-
-//   .pg-4 .pg__text {
-//     top:0;
-//     font-size: 1.2rem;
-//     width: 20vw;
-//     top: 45vh;
-//     left: 44vw;
-//     z-index: 5;
-//   }
-
-// }
+// this one will need a separate query for iphone ten and perhaps others
+// it seems that the data percentage isnt working on older phones but is on the iphone ten
+// so the top offset needs to be different depending

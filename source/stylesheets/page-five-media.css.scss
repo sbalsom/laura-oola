@@ -1,11 +1,14 @@
+//  ---------iPhone 4, Samsung 5, iPhone 6, 7, 8, and 10————
 @media only screen
-  and (min-device-width: 375px)
-  and (max-device-width: 667px)
-  and (-webkit-min-device-pixel-ratio: 2) {
+  and (min-device-width: 320px)
+  and (max-device-width: 812px) {
 
+  .pg-5 {
+    border: solid 1px blue;
+  }
 
   .pg-5 .pg__video {
-      top:0;
+      top:200vh;
       left:0;
   }
 
@@ -26,54 +29,54 @@
 /* ----------- iPhone 6+, 7+ and 8+ ----------- */
 
 /* Portrait and Landscape */
-@media only screen
-  and (min-device-width: 414px)
-  and (max-device-width: 736px)
-  and (-webkit-min-device-pixel-ratio: 3) {
-    .pg-5 .pg__video {
-      top:0;
-      left:0;
-  }
+// @media only screen
+//   and (min-device-width: 414px)
+//   and (max-device-width: 736px)
+//   and (-webkit-min-device-pixel-ratio: 3) {
+//     .pg-5 .pg__video {
+//       top:0;
+//       left:0;
+//   }
 
-  .pg-5 .pg__text {
-      top:20vh;
-      left:0;
-  }
+//   .pg-5 .pg__text {
+//       top:20vh;
+//       left:0;
+//   }
 
-  .pg-5 .pg__block {
-      top:0;
-      left:60vw;
-      width: 20vw;
-      height: 60vh;
+//   .pg-5 .pg__block {
+//       top:0;
+//       left:60vw;
+//       width: 20vw;
+//       height: 60vh;
 
-  }
+//   }
 
-}
+// }
 
-/* ----------- iPhone X ----------- */
+// /* ----------- iPhone X ----------- */
 
-/* Portrait and Landscape */
-@media only screen
-  and (min-device-width: 375px)
-  and (max-device-width: 812px)
-  and (-webkit-min-device-pixel-ratio: 3) {
+// /* Portrait and Landscape */
+// @media only screen
+//   and (min-device-width: 375px)
+//   and (max-device-width: 812px)
+//   and (-webkit-min-device-pixel-ratio: 3) {
 
-    .pg-5 .pg__video {
-      top:0;
-      left:0;
-  }
+//     .pg-5 .pg__video {
+//       top:0;
+//       left:0;
+//   }
 
-  .pg-5 .pg__text {
-      top:20vh;
-      left:0;
-  }
+//   .pg-5 .pg__text {
+//       top:20vh;
+//       left:0;
+//   }
 
-  .pg-5 .pg__block {
-      top:0;
-      left:60vw;
-      width: 20vw;
-      height: 60vh;
+//   .pg-5 .pg__block {
+//       top:0;
+//       left:60vw;
+//       width: 20vw;
+//       height: 60vh;
 
-  }
+//   }
 
-}
+// }
