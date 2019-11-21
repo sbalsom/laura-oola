@@ -1,19 +1,16 @@
 .header {
-  position:relative;
   margin: 0 auto 100px auto;
   height: 45vw;
   width: 80vw;
 
   .header__video {
-    position:absolute;
-    top:0;
+    position:relative;
     height: 45vw;
     width: 80vw;
     background-image: url('../images/video-1.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    z-index: 1;
   }
 
   video {

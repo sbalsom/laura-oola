@@ -1,5 +1,83 @@
 // global styles for media queries
 
+//  ---------iPhone 4 ---------
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 480px) {
+      html {
+      overflow-x:hidden;
+      width:100vw;
+    }
+
+    body {
+      padding: 0;
+      overflow-x:hidden;
+      width:100vw;
+    }
+
+    .pg__block {
+      width: 80vw;
+    }
+
+    video, .pg__video {
+      width: 100vw;
+      height:56vw
+    }
+
+    .pg {
+      width: 100vw;
+      margin: 15vh 0;
+      height: 100vh;
+    }
+
+
+    .wrapper {
+      width: 100vw;
+      overflow-x:hidden;
+    }
+  }
+
+ //  ---------SamSung 5 ---------
+
+@media only screen
+  and (min-device-width: 360px)
+  and (max-device-width: 640px) {
+
+    html {
+      overflow-x:hidden;
+      width:100vw;
+    }
+
+    body {
+      padding: 0;
+      overflow-x:hidden;
+      width:100vw;
+    }
+
+    .pg__block {
+      width: 80vw;
+    }
+
+    video, .pg__video {
+      width: 100vw;
+      height:56vw
+    }
+
+    .pg {
+      width: 100vw;
+      margin: 15vh 0;
+      height: 100vh;
+    }
+
+
+    .wrapper {
+      width: 100vw;
+      overflow-x:hidden;
+    }
+  }
+
+// -------iPhone6,7,8 --------
+
 @media only screen
   and (min-device-width: 375px)
   and (max-device-width: 667px)
@@ -46,12 +124,15 @@
   and (max-device-width: 736px)
   and (-webkit-min-device-pixel-ratio: 3) {
 
+    html {
+      overflow-x:hidden;
+      width:100vw;
+    }
+
     body {
       padding: 0;
-      // height: 100000px;
-      // overflow-x:hidden;
+      overflow-x:hidden;
       width:100vw;
-      // height: fit-content;
     }
 
     .pg__block {
@@ -63,11 +144,16 @@
       height:56vw
     }
 
-
- .pg {
+    .pg {
       width: 100vw;
       margin: 15vh 0;
       height: 100vh;
+    }
+
+
+    .wrapper {
+      width: 100vw;
+      overflow-x:hidden;
     }
 
 }
@@ -79,13 +165,15 @@
   and (min-device-width: 375px)
   and (max-device-width: 812px)
   and (-webkit-min-device-pixel-ratio: 3) {
+    html {
+      overflow-x:hidden;
+      width:100vw;
+    }
 
     body {
       padding: 0;
-      // height: 100000px;
-      // overflow-x:hidden;
+      overflow-x:hidden;
       width:100vw;
-      // height: fit-content;
     }
 
     .pg__block {
@@ -97,11 +185,16 @@
       height:56vw
     }
 
-
- .pg {
+    .pg {
       width: 100vw;
       margin: 15vh 0;
       height: 100vh;
+    }
+
+
+    .wrapper {
+      width: 100vw;
+      overflow-x:hidden;
     }
 
 }

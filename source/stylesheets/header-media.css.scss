@@ -1,14 +1,13 @@
-/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
 
+//  ---------iPhone 4, Samsung 5, iPhone 6, 7, 8, and plus---------
 @media only screen
-  and (min-device-width: 375px)
-  and (max-device-width: 667px)
-  and (-webkit-min-device-pixel-ratio: 2) {
+  and (min-device-width: 320px)
+  and (max-device-width: 736px) {
+
 
     .header {
-      position:relative;
       margin: 0;
-      height: 56vw;
+      height: 156vw;
       width: 100vw;
     }
 
@@ -18,56 +17,52 @@
     }
 
     .header .header__video {
-      position: absolute;
       top:0;
       left:0;
       height: 56vw;
       width: 100vw;
     }
 
-    .header__credits {
-      position: absolute;
-      top: 55vh;
-      left:0;
+    .header .header__credits {
+      top: 70vw;
+      right:0;
     }
 
 }
 
-/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+// /* ----------- iPhone 6+, 7+ and 8+ ----------- */
 
-/* Portrait and Landscape */
-@media only screen
-  and (min-device-width: 414px)
-  and (max-device-width: 736px)
-  and (-webkit-min-device-pixel-ratio: 3) {
+// /* Portrait and Landscape */
+// @media only screen
+//   and (min-device-width: 414px)
+//   and (max-device-width: 736px)
+//   and (-webkit-min-device-pixel-ratio: 3) {
 
 
-    .header {
-      position:relative;
-      margin: 0;
-      height: 56vw;
-      width: 100vw;
-    }
+//     .header {
 
-    .header video {
-      height: 56vw;
-      width: 100vw;
-    }
+//       margin: 0;
+//       height: 56vw;
+//       width: 100vw;
+//     }
 
-    .header .header__video {
-      position: absolute;
-      top:0;
-      left:0;
-      height: 56vw;
-      width: 100vw;
-    }
+//     .header video {
+//       height: 56vw;
+//       width: 100vw;
+//     }
 
-    .header__credits {
-      position: absolute;
-      top: 55vh;
-      left:0;
-    }
-}
+//     .header .header__video {
+//       top:0;
+//       left:0;
+//       height: 56vw;
+//       width: 100vw;
+//     }
+
+//     .header .header__credits {
+//       top: 70vw;
+//       right:0;
+//     }
+// }
 
 /* ----------- iPhone X ----------- */
 
@@ -78,7 +73,7 @@
   and (-webkit-min-device-pixel-ratio: 3) {
 
     .header {
-      position:relative;
+
       margin: 0;
       height: 56vw;
       width: 100vw;
@@ -90,16 +85,14 @@
     }
 
     .header .header__video {
-      position: absolute;
       top:0;
       left:0;
       height: 56vw;
       width: 100vw;
     }
 
-    .header__credits {
-      position: absolute;
-      top: 55vh;
-      left:0;
+    .header .header__credits {
+      top: 70vw;
+      right:0;
     }
 }
