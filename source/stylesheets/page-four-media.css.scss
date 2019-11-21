@@ -1,27 +1,28 @@
 @media only screen
-  and (min-device-width: 375px)
-  and (max-device-width: 667px)
-  and (-webkit-min-device-pixel-ratio: 2) {
+  and (min-device-width: 320px)
+  and (max-device-width: 812px) {
 
+  .pg-4 {
+    border: solid 1px red;
+  }
   .pg-4 .pg__video {
-    top: 20vh;
+    top: -30vw;
     z-index: 0;
   }
 
   .pg-4 .pg__block {
-    top: 30vh;
+    top: -14vw;
     height: 65vh;
     width: 30vw;
     left: 40vw;
-    z-index: 4;
+    z-index: 2;
 
   }
 
   .pg-4 .pg__text {
-    top:0;
+    top: 0;
     font-size: 1.2rem;
     width: 20vw;
-    top: 45vh;
     left: 44vw;
     z-index: 5;
   }
@@ -29,67 +30,67 @@
 
 /* ----------- iPhone 6+, 7+ and 8+ ----------- */
 
-// /* Portrait and Landscape */
-@media only screen
-  and (min-device-width: 414px)
-  and (max-device-width: 736px)
-  and (-webkit-min-device-pixel-ratio: 3) {
+// // /* Portrait and Landscape */
+// @media only screen
+//   and (min-device-width: 414px)
+//   and (max-device-width: 736px)
+//   and (-webkit-min-device-pixel-ratio: 3) {
 
 
-  .pg-4 .pg__video {
-    top: 20vh;
-    z-index: 0;
-  }
+//   .pg-4 .pg__video {
+//     top: 20vh;
+//     z-index: 0;
+//   }
 
-  .pg-4 .pg__block {
-    top: 30vh;
-    width: 30vw;
-    height: 65vh;
-    left: 40vw;
-    z-index: 4;
+//   .pg-4 .pg__block {
+//     top: 30vh;
+//     width: 30vw;
+//     height: 65vh;
+//     left: 40vw;
+//     z-index: 4;
 
-  }
+//   }
 
-  .pg-4 .pg__text {
-    top:0;
-    font-size: 1.2rem;
-    width: 20vw;
-    top: 20vh;
-    left: 44vw;
-    z-index: 5;
-  }
-}
+//   .pg-4 .pg__text {
+//     top:0;
+//     font-size: 1.2rem;
+//     width: 20vw;
+//     top: 20vh;
+//     left: 44vw;
+//     z-index: 5;
+//   }
+// }
 
-// /* ----------- iPhone X ----------- */
+// // /* ----------- iPhone X ----------- */
 
-// /* Portrait and Landscape */
-@media only screen
-  and (min-device-width: 375px)
-  and (max-device-width: 812px)
-  and (-webkit-min-device-pixel-ratio: 3) {
+// // /* Portrait and Landscape */
+// @media only screen
+//   and (min-device-width: 375px)
+//   and (max-device-width: 812px)
+//   and (-webkit-min-device-pixel-ratio: 3) {
 
 
-  .pg-4 .pg__video {
-    top: 20vh;
-    z-index: 0;
-  }
+//   .pg-4 .pg__video {
+//     top: 20vh;
+//     z-index: 0;
+//   }
 
-  .pg-4 .pg__block {
-    top: 30vh;
-    width: 30vw;
-    height: 65vh;
-    left: 40vw;
-    z-index: 4;
+//   .pg-4 .pg__block {
+//     top: 30vh;
+//     width: 30vw;
+//     height: 65vh;
+//     left: 40vw;
+//     z-index: 4;
 
-  }
+//   }
 
-  .pg-4 .pg__text {
-    top:0;
-    font-size: 1.2rem;
-    width: 20vw;
-    top: 45vh;
-    left: 44vw;
-    z-index: 5;
-  }
+//   .pg-4 .pg__text {
+//     top:0;
+//     font-size: 1.2rem;
+//     width: 20vw;
+//     top: 45vh;
+//     left: 44vw;
+//     z-index: 5;
+//   }
 
-}
+// }
