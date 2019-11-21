@@ -4,12 +4,15 @@
   and (min-device-width: 375px)
   and (max-device-width: 667px)
   and (-webkit-min-device-pixel-ratio: 2) {
+    html {
+      overflow-x:hidden;
+      width:100vw;
+    }
+
     body {
       padding: 0;
-      // height: 100000px;
-      // overflow-x:hidden;
+      overflow-x:hidden;
       width:100vw;
-      // height: fit-content;
     }
 
     .pg__block {
@@ -25,11 +28,13 @@
       width: 100vw;
       margin: 15vh 0;
       height: 100vh;
-      // border: solid 1px red;
     }
 
 
-
+    .wrapper {
+      width: 100vw;
+      overflow-x:hidden;
+    }
 
 }
 
