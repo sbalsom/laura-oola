@@ -12,14 +12,17 @@
       width: 100vw;
     }
 
-    .header .pg__video {
+    .header video {
+      height: 56vw;
+      width: 100vw;
+    }
+
+    .header .header__video {
       position: absolute;
       top:0;
       left:0;
-    }
-
-    .header .pg__text {
-      font-size:50%;
+      height: 56vw;
+      width: 100vw;
     }
 
     .header__credits {
@@ -40,32 +43,30 @@
 
 
     .header {
-      position: relative;
+      position:relative;
       margin: 0;
       height: 56vw;
       width: 100vw;
     }
 
-    .header .pg__video {
-      position:absolute;
-      margin:0;
-      top:0;
-      left:0;
-      z-index: 2;
-      background-image: url('../images/video-2.png');
+    .header video {
+      height: 56vw;
+      width: 100vw;
     }
 
-    .header .pg__text {
-      font-size:50%;
+    .header .header__video {
+      position: absolute;
+      top:0;
+      left:0;
+      height: 56vw;
+      width: 100vw;
     }
 
     .header__credits {
       position: absolute;
       top: 55vh;
-      left:21px;
+      left:0;
     }
-
-
 }
 
 /* ----------- iPhone X ----------- */
@@ -76,33 +77,29 @@
   and (max-device-width: 812px)
   and (-webkit-min-device-pixel-ratio: 3) {
 
-
     .header {
-      position: relative;
+      position:relative;
       margin: 0;
       height: 56vw;
       width: 100vw;
     }
 
-    // chrome dev tools wants it to be 109vw which doesnt make any sense ? test in prod first
-
-    .header .pg__video {
-      position:absolute;
-      margin:0;
-      top:0;
-      left:0;
-      z-index: 2;
-      background-image: url('../images/video-2.png');
+    .header video {
+      height: 56vw;
+      width: 100vw;
     }
 
-    .header .pg__text {
-      font-size:50%;
+    .header .header__video {
+      position: absolute;
+      top:0;
+      left:0;
+      height: 56vw;
+      width: 100vw;
     }
 
     .header__credits {
       position: absolute;
       top: 55vh;
-      left:21px;
+      left:0;
     }
-
 }
