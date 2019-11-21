@@ -1,31 +1,49 @@
 .header {
+  border: solid 1px blue;
   position:relative;
   margin: 0 auto 100px auto;
-  height: 360px;
-  width: 640px;
-  background-image: url('../images/video-1.png');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  height: 45vw;
+  width: 80vw;
+
+  .header__video {
+    position:absolute;
+    top:0;
+    border: solid 1px green;
+    height: 45vw;
+    width: 80vw;
+    background-image: url('../images/video-1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: 1;
+  }
+
+  video {
+  height: 45vw;
+  width: 80vw;
+  }
 
   h1 {
     position: absolute;
     bottom:0;
     margin: 30px;
     font-weight: 700;
+    z-index: 2;
   }
 
   h2 {
-    font-size: 15px;
+    font-size: 20px;
     margin:0;
     font-weight: 400;
   }
 
   .header__credits {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    font-size: 20px;
+    position:absolute;
+    z-index: 5;
+    bottom:0;
+    right:0;
+    border: solid 1px red;
     margin: 15px;
+    height: fit-content;
   }
 }

@@ -1,9 +1,9 @@
 const title = document.getElementById('title');
 title.velocity({
-  opacity:1,
-    "font-size" : 250
+  opacity:0,
+    "font-size" : 500
   },
   {
-    duration: 25000,
+    duration: 45000,
     repeat: true
   });

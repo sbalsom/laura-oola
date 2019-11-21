@@ -26,7 +26,7 @@ const cheeks = document.getElementById('cheeks');
 
 const animatePageElevent = () => {
   // the last line is set on its own timer to appear last
-  stanzaThree.velocity({opacity: 1}, {duration: 1500, delay: 3000, stagger:1000})
+  stanzaThree.velocity({opacity: 1}, {duration: 1500, delay: 6000, stagger:1000})
 
 // each word comes in separately at random intervals
   stroke.velocity({opacity: 1}, {duration: 500})
