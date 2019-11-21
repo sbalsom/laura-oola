@@ -1,36 +1,6 @@
 @media only screen
-  and (min-device-width: 375px)
-  and (max-device-width: 667px)
-  and (-webkit-min-device-pixel-ratio: 2) {
-
-
-    .pg-3 .pg__video {
-      left:0;
-    }
-
-    .pg-3 .pg__block {
-      left: 20vw;
-      width:80vw;
-    }
-
-// TODO return to this to see if we can get text aligned
-    .pg-3 .pg__text {
-      right:10vw;
-      top:40vh;
-      font-size: 1.3rem;
-      width: 70vw;
-    }
-
-
-}
-
-/* ----------- iPhone 6+, 7+ and 8+ ----------- */
-
-/* Portrait and Landscape */
-@media only screen
-  and (min-device-width: 414px)
-  and (max-device-width: 736px)
-  and (-webkit-min-device-pixel-ratio: 3) {
+  and (min-device-width: 320px)
+  and (max-device-width: 812px) {
 
 
     .pg-3 .pg__video {
@@ -50,33 +20,4 @@
     }
 
 
-
 }
-
-/* ----------- iPhone X ----------- */
-
-/* Portrait and Landscape */
-@media only screen
-  and (min-device-width: 375px)
-  and (max-device-width: 812px)
-  and (-webkit-min-device-pixel-ratio: 3) {
-
-
-    .pg-3 .pg__video {
-      left:0;
-    }
-
-    .pg-3 .pg__block {
-      left: 20vw;
-      width:80vw;
-    }
-
-    .pg-3 .pg__text {
-      left: 25vw;
-      top:40vh;
-      font-size: 1.3rem;
-      width: 70vw;
-    }
-
-}
-

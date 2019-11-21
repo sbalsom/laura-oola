@@ -2,7 +2,7 @@
 //  ---------iPhone 4, Samsung 5, iPhone 6, 7, 8, and plus---------
 @media only screen
   and (min-device-width: 320px)
-  and (max-device-width: 736px) {
+  and (max-device-width: 812px) {
 
 
     .header {
@@ -28,37 +28,4 @@
       right:0;
     }
 
-}
-
-/* ----------- iPhone X ----------- */
-
-/* Portrait and Landscape */
-@media only screen
-  and (min-device-width: 375px)
-  and (max-device-width: 812px)
-  and (-webkit-min-device-pixel-ratio: 3) {
-
-    .header {
-
-      margin: 0;
-      height: 80vw;
-      width: 100vw;
-    }
-
-    .header video {
-      height: 56vw;
-      width: 100vw;
-    }
-
-    .header .header__video {
-      top:0;
-      left:0;
-      height: 56vw;
-      width: 100vw;
-    }
-
-    .header .header__credits {
-      top: 70vw;
-      right:0;
-    }
 }
