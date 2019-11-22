@@ -1,17 +1,20 @@
 @media only screen
-  and (min-device-width: 375px)
-  and (max-device-width: 667px)
-  and (-webkit-min-device-pixel-ratio: 2) {
+  and (min-device-width: 320px)
+  and (max-device-width: 812px) {
 
-
+  .pg-9 {
+    border: solid 1px red;
+  }
   .pg-9 .pg__video {
       top:0;
       left:0;
   }
 
   .pg-9 .pg__text {
-      top:20vh;
-      left:0;
+      top: 61vw;
+      left:3vw;
+      font-size: 1.5rem;
+      width:90vw;
   }
 
   .pg-9 .pg__block {
@@ -21,59 +24,4 @@
       height: 60vh;
 
   }
-}
-
-/* ----------- iPhone 6+, 7+ and 8+ ----------- */
-
-/* Portrait and Landscape */
-@media only screen
-  and (min-device-width: 414px)
-  and (max-device-width: 736px)
-  and (-webkit-min-device-pixel-ratio: 3) {
-    .pg-9 .pg__video {
-      top:0;
-      left:0;
-  }
-
-  .pg-9 .pg__text {
-      top:20vh;
-      left:0;
-  }
-
-  .pg-9 .pg__block {
-      top:0;
-      left:60vw;
-      width: 20vw;
-      height: 60vh;
-
-  }
-
-}
-
-/* ----------- iPhone X ----------- */
-
-/* Portrait and Landscape */
-@media only screen
-  and (min-device-width: 375px)
-  and (max-device-width: 812px)
-  and (-webkit-min-device-pixel-ratio: 3) {
-
-    .pg-9 .pg__video {
-      top:0;
-      left:0;
-  }
-
-  .pg-9 .pg__text {
-      top:20vh;
-      left:0;
-  }
-
-  .pg-9 .pg__block {
-      top:0;
-      left:60vw;
-      width: 20vw;
-      height: 60vh;
-
-  }
-
 }
