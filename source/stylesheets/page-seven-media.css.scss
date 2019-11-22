@@ -1,25 +1,19 @@
 @media only screen
-  and (min-device-width: 375px)
+  and (min-device-width: 320px)
   and (max-device-width: 812px) {
 
-  .pg-7 {
-    border: solid 1px red;
-  }
   .pg-7 .pg__video {
     top:-100vw;
     left:0;
   }
 
-
   .pg-7 #sad {
-    border: solid 1px blue;
     top: 0;
     font-size:1.5rem;
     padding:5vw;
   }
 
   .pg-7 #alone {
-    border: solid 1px blue;
     width: 50vw;
     top: 60vw;
     left: 10vw;
@@ -27,7 +21,6 @@
 
   .pg-7 #artist {
     font-size:1.5rem;
-    border: solid 1px blue;
     width: 89vw;
     top: 200vw;
     padding:5vw;
@@ -35,7 +28,6 @@
   }
 
   .pg-7 .pg__block {
-    border: solid 1px blue;
     top:50vw;
     left: 5vw;
     width: 90vw;
