@@ -1,4 +1,16 @@
 // global styles for media queries
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 812px) {
+  .clicker:before {
+    content: 'Click to reveal';
+    color:#B4B7BA;
+    font-size:15px;
+    position:absolute;
+    top:-15px;
+    font-variant-caps: small-caps;
+  }
+}
 
 //  ---------iPhone 4 ---------
 @media only screen

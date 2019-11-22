@@ -29,6 +29,8 @@ const artistAppear = () => {
   });
 }
 
+if (window.screen.width > 812) {
+
 const handleSadScroll = () => {
   if(window.scrollY > 5500) {
   sadAppear();
@@ -48,4 +50,22 @@ const handleArtistScroll = () => {
 window.addEventListener('scroll', handleSadScroll);
 window.addEventListener('scroll', handleArtistScroll);
 
+} else {
 
+  const pageSevenTarget = document.getElementById('sad')
+  const pageSevenClicker = document.querySelector('#sad.clicker')
+  console.log(pageSevenClicker)
+  pageSevenTarget.addEventListener('click', function() {
+    sadAppear();
+    pageSevenClicker.classList.remove('clicker');
+
+  });
+
+  const pageSevenTargetTwo = document.getElementById('artist')
+  const pageSevenClickerTwo = document.querySelector('#artist.clicker')
+  pageSevenTargetTwo.addEventListener('click', function() {
+    artistAppear();
+    pageSevenClickerTwo.classList.remove('clicker');
+  });
+
+}

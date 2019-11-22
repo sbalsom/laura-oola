@@ -43,7 +43,11 @@ const revealLineFour = () => {
   });
 }
 
-// triggers animation when the user scrolls to that part of the page
+// scroll-triggered animations only on larger screens
+if (window.screen.width > 812) {
+
+  // triggers animation when the user scrolls to that part of the page
+
 const handlePageSixScroll = () => {
 
   if(window.scrollY > 3450) {
@@ -75,6 +79,35 @@ window.addEventListener('scroll', handlePageSixScroll);
 window.addEventListener('scroll', handleLineThreeScroll);
 window.addEventListener('scroll', handleLineFourScroll);
 
+} else {
+
+// otherwise triggered by user click
+
+  const pageSixTarget = document.querySelector('.blasted-text .first-line')
+  const pageSixClicker = document.querySelector('.first-line.clicker')
+
+  console.log(pageSixClicker)
+  pageSixTarget.addEventListener('click', function() {
+    pageSixAnimation();
+    pageSixClicker.classList.remove('clicker');
+
+  });
+
+  const pageSixTargetTwo = document.querySelector('.blasted-text .third-line')
+  const pageSixClickerTwo = document.querySelector('.third-line.clicker')
+  pageSixTargetTwo.addEventListener('click', function() {
+    revealLineThree();
+    pageSixClickerTwo.classList.remove('clicker');
+  });
+
+
+   const pageSixTargetThree = document.querySelector('.blasted-text .fourth-line')
+  const pageSixClickerThree = document.querySelector('.fourth-line.clicker')
+  pageSixTargetThree.addEventListener('click', function() {
+    revealLineFour();
+    pageSixClickerThree.classList.remove('clicker');
+  });
+}
 
 
 
