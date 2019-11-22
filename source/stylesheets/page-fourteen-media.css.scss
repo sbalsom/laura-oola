@@ -1,13 +1,12 @@
 @media only screen
-  and (min-device-width: 375px)
-  and (max-device-width: 667px)
-  and (-webkit-min-device-pixel-ratio: 2) {
+  and (min-device-width: 320px)
+  and (max-device-width: 812px) {
 
   .pg-14 .pg__video {
-      top:0;
-      left:0;
-      width:100vw;
-      height:56vw;
+    top:0;
+    left:0;
+    width:100vw;
+    height:56vw;
   }
 
   .pg-14 video {
@@ -23,7 +22,6 @@
   .pg-14 #gender {
     top: 54vw;
     width: 97vw;
-
   }
 
 }
