@@ -1,51 +1,38 @@
 //  ---------iPhone 4, Samsung 5, iPhone 6, 7, 8, and 10————
 @media only screen
   and (min-device-width: 320px)
-  and (max-device-width: 736px) {
+  and (max-device-width: 812px) {
 
   .pg-5 {
+    // display: flex;
+    // flex-direction: column;
   }
 
   .pg-5 .pg__video {
+    // position:unset;
       top:200vh;
       left:0;
   }
 
   .pg-5 .pg__text {
-      top:20vh;
-      left:0;
+        // position:unset;
+    opacity: 0;
   }
 
   .pg-5 .pg__block {
+        position:unset;
       top:0;
       left:60vw;
       width: 20vw;
       height: 60vh;
-
-  }
-}
-
-@media only screen
-  and (min-device-width: 375px)
-  and (max-device-width: 812px)
-  and (-webkit-min-device-pixel-ratio: 3) {
-     .pg-5 .pg__video {
-      top:90vh;
-      left:0;
-  }
-
-
-    .pg-5 .pg__block {
-      top:-536px;
-      left:60vw;
-      width: 20vw;
-      height: 60vh;
+      // position:absolute;
+      z-index: 5;
+      font-size: 24px;
+      padding: 15px;
 
   }
 
-  .pg-5 .pg__text {
-      top:-104vh;
-      left:0;
+  .pg-5 .pg__block:before {
+    content: "For convenience’s sake, she wore her hair back, cleaned and low.";
   }
-
 }
