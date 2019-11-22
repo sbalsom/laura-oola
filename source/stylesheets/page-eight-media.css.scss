@@ -1,79 +1,90 @@
 @media only screen
-  and (min-device-width: 375px)
-  and (max-device-width: 667px)
-  and (-webkit-min-device-pixel-ratio: 2) {
+  and (min-device-width: 320px)
+  and (max-device-width: 812px) {
 
+  .pg-8__text div {
+    width:fit-content;
+  }
+
+  .pg-8 #oola {
+    font-size: 4rem;
+    top:-40vw;
+  }
+
+  .pg-8 #name {
+    font-size:2rem;
+    top: -32vw;
+    left:50vw;
+  }
+
+   .pg-8 #a-word {
+      top:-15vw;
+      left:5vw;
+      width:90vw;
+      font-size:1.5rem;
+   }
+
+   .pg-8 #like-any {
+      top:65vw;
+      left:5vw;
+      width:90vw;
+      font-size:1.5rem;
+   }
+
+   .pg-8 #kid {
+      top:80vw;
+      left:5vw;
+      width:90vw;
+      font-size:1rem;
+   }
+
+   .pg-8 #book {
+      top: 88vw;
+      left: 17vw;
+   }
+
+   .pg-8 #bread {
+      top: 101vw;
+      left: 40vw;
+   }
+
+   .pg-8 #breasts {
+    top: 113vw;
+    left: 64vw;
+
+   }
+
+   .pg-8 #until {
+      top: 137vw;
+      left: 5vw;
+      width: 90vw;
+   }
+
+   .pg-8 #tongue {
+      top: 181vw;
+      left: 5vw;
+   }
+
+   .pg-8 #cream {
+      top: 193vw;
+      left: 20vw;
+      width:70vw;
+   }
+
+   .pg-8 #mouth {
+      top: 210vw;
+      left: 8vw;
+   }
+
+   .pg-8 #oola-2 {
+    font-size: 4rem;
+    top: 159vw;
+    left: 33vw;
+   }
 
   .pg-8 .pg__video {
       top:0;
       left:0;
-  }
-
-  .pg-8 .pg__text {
-      top:20vh;
-      left:0;
-  }
-
-  .pg-8 .pg__block {
-      top:0;
-      left:60vw;
-      width: 20vw;
-      height: 60vh;
-
-  }
-}
-
-/* ----------- iPhone 6+, 7+ and 8+ ----------- */
-
-/* Portrait and Landscape */
-@media only screen
-  and (min-device-width: 414px)
-  and (max-device-width: 736px)
-  and (-webkit-min-device-pixel-ratio: 3) {
-    .pg-8 .pg__video {
-      top:0;
-      left:0;
-  }
-
-  .pg-8 .pg__text {
-      top:20vh;
-      left:0;
-  }
-
-  .pg-8 .pg__block {
-      top:0;
-      left:60vw;
-      width: 20vw;
-      height: 60vh;
-
-  }
-
-}
-
-/* ----------- iPhone X ----------- */
-
-/* Portrait and Landscape */
-@media only screen
-  and (min-device-width: 375px)
-  and (max-device-width: 812px)
-  and (-webkit-min-device-pixel-ratio: 3) {
-
-    .pg-8 .pg__video {
-      top:0;
-      left:0;
-  }
-
-  .pg-8 .pg__text {
-      top:20vh;
-      left:0;
-  }
-
-  .pg-8 .pg__block {
-      top:0;
-      left:60vw;
-      width: 20vw;
-      height: 60vh;
-
   }
 
 }

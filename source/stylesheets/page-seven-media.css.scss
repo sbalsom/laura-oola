@@ -2,6 +2,10 @@
   and (min-device-width: 320px)
   and (max-device-width: 812px) {
 
+  .pg-7 {
+    height: 150vh;
+  }
+
   .pg-7 .pg__video {
     top:-100vw;
     left:0;
