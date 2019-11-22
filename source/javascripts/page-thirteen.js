@@ -18,6 +18,7 @@ const animatePageThirteen = () => {
   smear.velocity({opacity: 1}, {duration: 1500, delay: 11000})
 }
 
+if (window.screen.width > 812) {
 const handlePageThirteenScroll = () => {
   if(window.scrollY > 13470) {
     animatePageThirteen();
@@ -28,5 +29,11 @@ const handlePageThirteenScroll = () => {
 
 window.addEventListener('scroll', handlePageThirteenScroll);
 
+} else {
+  const pageThirteenTarget = document.querySelector('.pg-13 .clicker')
 
-
+  pageThirteenTarget.addEventListener('click', function() {
+    animatePageThirteen();
+    pageThirteenTarget.classList.remove('clicker');
+  });
+}

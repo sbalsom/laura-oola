@@ -86,7 +86,6 @@ window.addEventListener('scroll', handleLineFourScroll);
   const pageSixTarget = document.querySelector('.blasted-text .first-line')
   const pageSixClicker = document.querySelector('.first-line.clicker')
 
-  console.log(pageSixClicker)
   pageSixTarget.addEventListener('click', function() {
     pageSixAnimation();
     pageSixClicker.classList.remove('clicker');

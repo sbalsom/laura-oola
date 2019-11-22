@@ -24,7 +24,7 @@ const nose = document.getElementById('nose');
 const mouthForced = document.getElementById('mouth-forced');
 const cheeks = document.getElementById('cheeks');
 
-const animatePageElevent = () => {
+const animatePageEleven = () => {
   // the last line is set on its own timer to appear last
   stanzaThree.velocity({opacity: 1}, {duration: 1500, delay: 6000, stagger:1000})
 
@@ -56,12 +56,11 @@ const animatePageElevent = () => {
   lineSix.velocity({opacity: 1}, {duration: 500, stagger: 100})
 }
 
-// rename this function and use the scrollY instead of this rectangle thing
-// it used to have a curtain effect, I just kept the name of the animation the same
+if (window.screen.width > 812) {
 const handlePageElevenScroll = () => {
   if(window.scrollY > 10683 ) {
 
-  animatePageElevent();
+  animatePageEleven();
 
 // this line is necessary so the animation doesn't flicker / repeatedly start over
   window.removeEventListener('scroll', handlePageElevenScroll);
@@ -71,4 +70,12 @@ const handlePageElevenScroll = () => {
 window.addEventListener('scroll', handlePageElevenScroll);
 
 
+} else {
+   const pageElevenTarget = document.querySelector('.pg-11 .clicker')
 
+  pageElevenTarget.addEventListener('click', function() {
+    animatePageEleven();
+    pageElevenTarget.classList.remove('clicker');
+  });
+
+}

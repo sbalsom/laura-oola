@@ -122,7 +122,7 @@ const animatePageEight = () => {
 }
 
 
-
+if (window.screen.width > 812) {
 // triggers animation when the user scrolls to that part of the page
 const handlePageEightScroll = () => {
   if(window.scrollY > 7558) {
@@ -135,4 +135,14 @@ const handlePageEightScroll = () => {
 window.addEventListener('scroll', handlePageEightScroll);
 
 
+} else {
+  // otherwise triggered by user click
 
+  const pageEightTarget = document.querySelector('.pg-8__text')
+
+  pageEightTarget.addEventListener('click', function() {
+    animatePageEight();
+    pageEightTarget.classList.remove('clicker');
+
+  });
+}
