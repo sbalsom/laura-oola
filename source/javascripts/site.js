@@ -10,7 +10,7 @@ let loadJS = function(src) {
 
 // only load parallax scrolling on larger devices that can handle it
 
-if (window.screen.width > 667) {
+if (window.screen.width > 812) {
   loadJS('javascripts/rellax.js');
 }
 

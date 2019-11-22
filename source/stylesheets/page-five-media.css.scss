@@ -3,29 +3,20 @@
   and (min-device-width: 320px)
   and (max-device-width: 812px) {
 
-  .pg-5 {
-    // display: flex;
-    // flex-direction: column;
-  }
-
   .pg-5 .pg__video {
-    // position:unset;
-      top:200vh;
+      top:30vh;
       left:0;
   }
 
   .pg-5 .pg__text {
-        // position:unset;
     opacity: 0;
   }
 
   .pg-5 .pg__block {
-        position:unset;
       top:0;
       left:60vw;
       width: 20vw;
       height: 60vh;
-      // position:absolute;
       z-index: 5;
       font-size: 24px;
       padding: 15px;
