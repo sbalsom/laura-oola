@@ -3,8 +3,7 @@
   and (max-device-width: 812px) {
 
   .pg-4 {
-        height: 100vh;
-    border: solid 1px red;
+    height: 100vh;
   }
   .pg-4 .pg__video {
     top: 51vw;
@@ -29,6 +28,4 @@
   }
 }
 
-// this one will need a separate query for iphone ten and perhaps others
-// it seems that the data percentage isnt working on older phones but is on the iphone ten
-// so the top offset needs to be different depending
+
