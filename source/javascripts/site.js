@@ -8,7 +8,7 @@ let loadJS = function(src) {
   head.appendChild(jsLink);
 };
 
-// only load parallax scrolling on larger devices that can handle it
+// only employ parallax scrolling on larger devices that can handle it
 
 if (window.screen.width > 812) {
   loadJS('javascripts/rellax.js');
@@ -27,5 +27,4 @@ document.addEventListener('DOMContentLoaded', function(event) {
   loadJS('javascripts/page-thirteen.js');
 
  });
-
 
